@@ -1,0 +1,58 @@
+[
+  {
+    "case": "mythos",
+    "path": "videos/mythos.en-en.little-lab.no-lesson.mp4",
+    "bytes": 41984164,
+    "sha256": "fe3d8ac3d2953aab6a78bdf64597464f513f53f5ad59f9088ebc8a524cf18221",
+    "duration_seconds": 81.4,
+    "production": "Existing local 2D compositor export; new skill requires HyperFrames for future production"
+  },
+  {
+    "case": "collusion",
+    "path": "videos/collusion.en-en.style-b.mp4",
+    "bytes": 16290768,
+    "sha256": "6d307204e3ab9d9a56dd838e0ecfb2826e30db89ada329699d8dfb57c20cc413",
+    "duration_seconds": 85.5,
+    "production": "Existing local 2D compositor export; new skill requires HyperFrames for future production"
+  },
+  {
+    "case": "geological-clock",
+    "path": "videos/geological-clock.en-en.little-lab.mp4",
+    "bytes": 11364311,
+    "sha256": "0f19ecc9c06181c00ad869d7911868d4c0dd20f3bae68dae093224bf29bc1c04",
+    "duration_seconds": 81.366667,
+    "production": "Existing local 2D compositor export; new skill requires HyperFrames for future production"
+  },
+  {
+    "case": "saving-gemini",
+    "path": "videos/saving-gemini.en-en.little-lab.mp4",
+    "bytes": 17796883,
+    "sha256": "496c3f504d6fad17fffa2193bc16037dd90fd20c9a52aea89959f578e8f02f16",
+    "duration_seconds": 80.733333,
+    "production": "Existing local 2D compositor export; new skill requires HyperFrames for future production"
+  },
+  {
+    "case": "opus-loan",
+    "path": "videos/opus-loan.en-en.little-lab.mp4",
+    "bytes": 31898870,
+    "sha256": "19a3ce0f6ac2586895db2e81e26776224e3d5388d5a55f33426fc2872bc6689b",
+    "duration_seconds": 79.633333,
+    "production": "Existing local 2D compositor export; new skill requires HyperFrames for future production"
+  },
+  {
+    "case": "doug-mira",
+    "path": "videos/doug-mira.en-en.little-lab.mp4",
+    "bytes": 29907563,
+    "sha256": "a6735fa71611d2cc5cad3d17b8130d5040cbf6b098eb8b0b33db69afdf7d4947",
+    "duration_seconds": 85.5,
+    "production": "Existing local 2D compositor export; new skill requires HyperFrames for future production"
+  },
+  {
+    "case": "ash-constitution",
+    "path": "videos/ash-constitution.en-en.little-lab.mp4",
+    "bytes": 34308224,
+    "sha256": "7aef51304dbc49d301f34f6a5d39232b7017621f2195ee473f3d12ada375d566",
+    "duration_seconds": 82.3,
+    "production": "Existing local 2D compositor export; new skill requires HyperFrames for future production"
+  }
+]
