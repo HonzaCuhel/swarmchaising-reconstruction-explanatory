@@ -1,12 +1,33 @@
+# Local environment and dependencies
 .DS_Store
 node_modules/
 .env
 .env.*
 __pycache__/
+*.py[cod]
+
+# Regenerable render output and caches
 **/.hyperframes/
 **/.hf-tmp/
-node_modules/
-videos/.*.rendering.mp4
-hyperframes/*/verification/*.log
-hyperframes/*/verification/encoded/
 hyperframes/*/snapshots/
+hyperframes/*/verification/*
+!hyperframes/mythos/verification/evidence.json
+hyperframes/*/BRIEF.md
+production/render-status.json
+production/source-verification.json
+production/environment-check.json
+production/verification-summary.json
+*.log
+*.tmp
+*.bak
+*.zip
+
+# Publish only the six canonical latest exports and their manifest
+/videos/*
+!/videos/manifest.json
+!/videos/mythos.en-en.hyperframes.mp4
+!/videos/geological-clock.en-en.hyperframes.mp4
+!/videos/saving-gemini.en-en.hyperframes.mp4
+!/videos/opus-loan.en-en.hyperframes.mp4
+!/videos/doug-mira.en-en.hyperframes.mp4
+!/videos/ash-constitution.en-en.hyperframes.mp4

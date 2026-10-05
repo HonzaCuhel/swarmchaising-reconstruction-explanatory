@@ -68,7 +68,7 @@ The launcher selects Python 3.9+ and resolves the pinned HyperFrames CLI from lo
 
 The render script runs the installed version's runtime gates, performs the actual HyperFrames render, checks duration/resolution/audio and fully decodes the result, then writes `videos/<case>.en-en.hyperframes.mp4` and updates the video manifest. It also extracts 18 encoded frames per film for review. Listening, caption appearance and visual quality still require review; successful encoding alone does not prove those.
 
-Edit the native scene HTML directly, or edit `production/build_hyperframes.py` and rebuild with `python3 production/build_hyperframes.py`. Rebuilding overwrites generated scene HTML. `python3 production/verify_sources.py` checks source contracts, local assets and exact caption-time projection without launching a browser. [Render status](production/render-status.json) distinguishes authored from rendered outputs.
+Edit the native scene HTML directly, or edit `production/build_hyperframes.py` and rebuild with `python3 production/build_hyperframes.py`. Rebuilding overwrites generated scene HTML. `python3 production/verify_sources.py` checks source contracts, local assets and exact caption-time projection without launching a browser. The [video manifest](videos/manifest.json) identifies the published exports. Detailed checks, render status and extracted frames are generated locally and ignored by Git.
 
 ## Latest videos — native HyperFrames
 
@@ -81,13 +81,13 @@ Edit the native scene HTML directly, or edit `production/build_hyperframes.py` a
 | Doug–Mira | [Download MP4](videos/doug-mira.en-en.hyperframes.mp4) | 1:25 |
 | Ash Constitution | [Download MP4](videos/ash-constitution.en-en.hyperframes.mp4) | 1:22 |
 
-[Video manifest](videos/manifest.json) records durations, sizes and SHA-256 hashes. Checks include actual browser rendering, full decoding, 18 sampled encoded scene frames per film, OCR of all 145 caption midpoints, and audio alignment measurements at three positions in each export. Minor OCR letter confusions are recorded separately from rendering defects. These checks do not constitute continuous viewing, subjective audio listening or human comprehension testing; those reviews are not claimed.
+[Video manifest](videos/manifest.json) records durations, sizes and SHA-256 hashes. Checks include actual browser rendering, full decoding, 18 sampled encoded scene frames per film, OCR of all 145 caption midpoints, and audio alignment measurements at three positions in each export. Five OCR letter confusions were visually checked. These checks do not constitute continuous viewing, subjective audio listening or human comprehension testing; those reviews are not claimed.
 
-Earlier `little-lab` MP4s remain as archival examples from the previous compositor. The table and manifest identify the current native HyperFrames exports. No new video uses a flattened MP4 as input. All endings state outcomes and evidence limits, with no concluding lesson.
+Only the six latest native HyperFrames MP4s are included. Older exports, temporary frames, caches and detailed run logs are excluded by `.gitignore`. No new video uses a flattened MP4 as input. All endings state outcomes and evidence limits, with no concluding lesson.
 
 ## Scope
 
-This repository contains the reusable instruction-only skill, earlier generated examples, and a separate native HyperFrames production project. The skill directory contains no production code. Case source transcripts, credentials and private working history are not included. Source references remain available in the videos and skill resources. Source records and third-party materials retain their respective rights.
+This repository contains the reusable instruction-only skill, six latest videos, evidence-linked reconstruction material, and editable HyperFrames production sources. The skill directory contains no production code. Case source transcripts, credentials and private working history are not included. Source references remain available in the videos and skill resources. Source records and third-party materials retain their respective rights.
 
 ## Browser or local-server permission errors
 
