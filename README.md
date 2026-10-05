@@ -56,7 +56,7 @@ Six projects are authored under `hyperframes/`: Mythos, Geological Clock, Saving
 
 Each project's `evidence-index.json` resolves its scene evidence IDs to source URLs and record locators. The [Mythos case companion](hyperframes/mythos/README.md) includes the reading notes, reconstruction, event DAG, timed scenario and production status. It preserves the existing selected reconstruction rather than claiming a new full transcript review. [Public Thimble design notes](skills/incident-replay/references/thimble.md) identify the story and video prompts informing the skill.
 
-**Current status:** all 36 scenes pass static source checks and HyperFrames lint. A real Mythos workflow attempt on 2026-10-05 stopped at runtime validation with `listen EPERM: operation not permitted 127.0.0.1`; browser execution was not established by that attempt. Visual review and new MP4 renders remain pending. The previous MP4s below are not HyperFrames exports.
+**Current status (2026-10-05):** six native HyperFrames exports are available below, rendered with the pinned CLI version **0.8.117**, at 1920×1080 and 30 fps. The server/browser permission blocker was resolved using an explicitly approved execution context. Runtime checks and full media decoding passed. Review scope and limitations are recorded in [the completion audit](production/completion-audit.md).
 
 On a machine with Node.js 22+, Python 3.9+, FFmpeg and permission to run Chrome/local servers, run from this repository:
 
@@ -64,26 +64,26 @@ On a machine with Node.js 22+, Python 3.9+, FFmpeg and permission to run Chrome/
 sh render.sh
 ```
 
-The launcher selects Python 3.9+ and resolves the pinned HyperFrames CLI from local project dependencies or an existing npm cache; it does not download anything implicitly. That pinned version was available for static checks; an attempted update was blocked by DNS. Optional local installation: `npm install`. For a single film: `sh render.sh --case mythos`. For static checks only: `sh render.sh --lint-only`.
+The launcher selects Python 3.9+ and resolves the pinned HyperFrames CLI from local project dependencies or an existing npm cache; it does not download anything implicitly. Install the locked dependencies with `npm ci`. For a single film: `sh render.sh --case mythos`. For static checks only: `sh render.sh --lint-only`.
 
 The render script runs the installed version's runtime gates, performs the actual HyperFrames render, checks duration/resolution/audio and fully decodes the result, then writes `videos/<case>.en-en.hyperframes.mp4` and updates the video manifest. It also extracts 18 encoded frames per film for review. Listening, caption appearance and visual quality still require review; successful encoding alone does not prove those.
 
 Edit the native scene HTML directly, or edit `production/build_hyperframes.py` and rebuild with `python3 production/build_hyperframes.py`. Rebuilding overwrites generated scene HTML. `python3 production/verify_sources.py` checks source contracts, local assets and exact caption-time projection without launching a browser. [Render status](production/render-status.json) distinguishes authored from rendered outputs.
 
-## Previous generated videos
-
-These are the existing latest exports, included as examples. Mythos has the corrected factual ending; Geological Clock and Saving Gemini have rewritten stories. The examples were produced with a local 2D compositor and FFmpeg; their earlier HyperFrames integrations were flattened-media wrappers. They are not claimed to be newly rendered editable HyperFrames compositions. The revised skill requires HyperFrames for future videos.
+## Latest videos — native HyperFrames
 
 | Incident | Video | Duration |
 | --- | --- | --- |
-| mythos | [Download MP4](videos/mythos.en-en.little-lab.no-lesson.mp4) | 1:21 |
-| geological-clock | [Download MP4](videos/geological-clock.en-en.little-lab.mp4) | 1:21 |
-| saving-gemini | [Download MP4](videos/saving-gemini.en-en.little-lab.mp4) | 1:20 |
-| opus-loan | [Download MP4](videos/opus-loan.en-en.little-lab.mp4) | 1:19 |
-| doug-mira | [Download MP4](videos/doug-mira.en-en.little-lab.mp4) | 1:25 |
-| ash-constitution | [Download MP4](videos/ash-constitution.en-en.little-lab.mp4) | 1:22 |
+| Mythos 5 | [Download MP4](videos/mythos.en-en.hyperframes.mp4) | 1:21 |
+| Geological Clock | [Download MP4](videos/geological-clock.en-en.hyperframes.mp4) | 1:21 |
+| Saving Gemini | [Download MP4](videos/saving-gemini.en-en.hyperframes.mp4) | 1:20 |
+| Opus loan | [Download MP4](videos/opus-loan.en-en.hyperframes.mp4) | 1:19 |
+| Doug–Mira | [Download MP4](videos/doug-mira.en-en.hyperframes.mp4) | 1:25 |
+| Ash Constitution | [Download MP4](videos/ash-constitution.en-en.hyperframes.mp4) | 1:22 |
 
-[Video manifest](videos/manifest.json) records file sizes, durations and SHA-256 checksums. The six previous exports passed decoding and caption-frame checks. Their native HyperFrames replacements are being prepared; render status is recorded separately. Audio listening and human comprehension validation are not claimed.
+[Video manifest](videos/manifest.json) records durations, sizes and SHA-256 hashes. Checks include actual browser rendering, full decoding, 18 sampled encoded scene frames per film, OCR of all 145 caption midpoints, and audio alignment measurements at three positions in each export. Minor OCR letter confusions are recorded separately from rendering defects. These checks do not constitute continuous viewing, subjective audio listening or human comprehension testing; those reviews are not claimed.
+
+Earlier `little-lab` MP4s remain as archival examples from the previous compositor. The table and manifest identify the current native HyperFrames exports. No new video uses a flattened MP4 as input. All endings state outcomes and evidence limits, with no concluding lesson.
 
 ## Scope
 
@@ -93,4 +93,4 @@ This repository contains the reusable instruction-only skill, earlier generated 
 
 `listen EPERM 127.0.0.1`, Chromium `Operation not permitted`, or `MachPortRendezvous` indicate that the execution environment denied local server/browser startup. Installing another browser or changing scene code does not grant those permissions. Run `sh render.sh` from a normal terminal, or use an agent session explicitly permitted to launch the renderer and its local server. The launcher does not change sandbox policy or disable browser protections.
 
-`node production/hyperframes.mjs doctor --json` checks dependencies. A detected Chrome executable does not prove that the environment permits it to launch. Version notices and missing optional TTS/music packages are separate from browser permissions; these projects already include narration.
+`node production/hyperframes.mjs doctor --json` checks dependencies. In a managed coding-agent session, request the host’s normal execution approval when server/browser startup is denied. An `on-request` policy enables that approval; it does not itself execute the render. A detected Chrome executable does not prove that the environment permits it to launch. Version notices and missing optional TTS/music packages are separate from browser permissions; these projects already include narration.

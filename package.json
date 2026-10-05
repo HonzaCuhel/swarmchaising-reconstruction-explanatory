@@ -10,6 +10,6 @@
     "render:videos": "sh render.sh"
   },
   "devDependencies": {
-    "hyperframes": "0.7.10"
+    "hyperframes": "0.8.117"
   }
 }

@@ -13,13 +13,22 @@ def execute(command,log):
  env=dict(os.environ,HYPERFRAMES_NO_TELEMETRY='1')
  with log.open('w') as f:
   p=subprocess.Popen(command,cwd=ROOT,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,env=env)
-  for line in p.stdout:print(line,end='',flush=True);f.write(line)
+  for line in p.stdout:
+   if '--json' not in command:print(line,end='',flush=True)
+   f.write(line)
   code=p.wait()
+ if '--json' in command:
+  print(f'CHECK exit={code}; details: {log.relative_to(ROOT)}',flush=True)
  if code:
   error_text=log.read_text()
   if any(marker in error_text for marker in ['listen EPERM','Operation not permitted','MachPortRendezvous','Permission denied (1100)']):
    raise RuntimeError('Environment denied local server or browser startup. Run from a normal terminal or a session permitted to run HyperFrames. No retry or renderer substitution attempted. Details: '+str(log.relative_to(ROOT)))
   raise RuntimeError(f'Command failed ({code}); see {log.relative_to(ROOT)}')
+ if '--json' in command:
+  raw=log.read_text();start=re.search(r'(?m)^\{',raw)
+  if start:
+   result=json.loads(raw[start.start():])
+   log.write_text(json.dumps(result,indent=2).replace(str(ROOT),'.')+'\n')
 
 def probe_and_decode(path,expected):
  p=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_format','-show_streams','-of','json',str(path)]))

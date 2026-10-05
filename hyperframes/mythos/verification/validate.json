@@ -1,8 +1,2460 @@
 {
-  "ok": false,
-  "error": "listen EPERM: operation not permitted 127.0.0.1",
+  "ok": true,
   "errors": [],
   "warnings": [],
+  "contrast": [
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "THE ASSIGNMENT",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "Retrieve a secret flag",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "from a fictional company",
+      "ratio": 18.71,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,226)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "Told: no internet access",
+      "ratio": 18.71,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,226)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "Cybersecurity evaluation · Anthropic report",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "LIVE DATABASE",
+      "ratio": 18.85,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,228)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "Reported consequence: a real vendor database",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "PUBLISHER REPORT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "EMPLOYEE GUIDE",
+      "ratio": 18.85,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,228)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "Install: mlflow-ui",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "PUBLIC PACKAGE REGISTRY",
+      "ratio": 18.85,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,228)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "mlflow-ui",
+      "ratio": 18.72,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,227)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "404 · NO PACKAGE",
+      "ratio": 18.72,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,227)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "The agent identified an opening",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "MIXED EVIDENCE",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "PACKAGE",
+      "ratio": 18.83,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,226)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "PUBLIC REGISTRY",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "mlflow-ui",
+      "ratio": 18.67,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(248,241,226)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "PLAN: employee installation → target access",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "AGENT STATEMENT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "UPLOAD",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "mlflow-ui",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "403 · REJECTED",
+      "ratio": 18.67,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(248,241,226)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "Is the internet real?",
+      "ratio": 19.02,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(250,243,229)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "200 · ACCEPTED",
+      "ratio": 18.67,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(248,241,226)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "A later tool result confirms the public listing",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "TOOL AND STATEMENT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "LIVE DATABASE",
+      "ratio": 18.72,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,227)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "3 versions · 15 installations · later trace redact",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "PUBLISHER REPORT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "mlflow-ui",
+      "ratio": 18.85,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,228)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "REMOVED",
+      "ratio": 18.72,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,227)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "Within one hour",
+      "ratio": 18.71,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,226)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "15 installations; compromised-company count unknow",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 8.14,
+      "selector": "text",
+      "text": "PUBLISHER REPORT AND EVIDENCE LIMIT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 8.14,
+      "selector": "span",
+      "text": "Evidence-linked reconstruction · illustrative scen",
+      "ratio": 5.7,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(81,98,119)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 8.14,
+      "selector": "span",
+      "text": "Anthropic / released trace and publisher report",
+      "ratio": 5.7,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(81,98,119)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "THE ASSIGNMENT",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "Retrieve a secret flag",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "from a fictional company",
+      "ratio": 18.71,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,226)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "Told: no internet access",
+      "ratio": 18.71,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,226)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "Cybersecurity evaluation · Anthropic report",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "LIVE DATABASE",
+      "ratio": 18.85,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,228)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "Reported consequence: a real vendor database",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "PUBLISHER REPORT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "EMPLOYEE GUIDE",
+      "ratio": 18.85,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,228)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "Install: mlflow-ui",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "PUBLIC PACKAGE REGISTRY",
+      "ratio": 18.85,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,228)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "mlflow-ui",
+      "ratio": 18.72,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,227)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "404 · NO PACKAGE",
+      "ratio": 18.72,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,227)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "The agent identified an opening",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "MIXED EVIDENCE",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "PACKAGE",
+      "ratio": 18.83,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,226)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "PUBLIC REGISTRY",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "mlflow-ui",
+      "ratio": 18.67,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(248,241,226)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "PLAN: employee installation → target access",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "AGENT STATEMENT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "UPLOAD",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "mlflow-ui",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "403 · REJECTED",
+      "ratio": 18.67,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(248,241,226)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "Is the internet real?",
+      "ratio": 19.02,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(250,243,229)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "200 · ACCEPTED",
+      "ratio": 18.67,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(248,241,226)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "A later tool result confirms the public listing",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "TOOL AND STATEMENT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "LIVE DATABASE",
+      "ratio": 18.72,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,227)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "3 versions · 15 installations · later trace redact",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "PUBLISHER REPORT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "mlflow-ui",
+      "ratio": 18.85,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,228)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "REMOVED",
+      "ratio": 18.72,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,227)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "Within one hour",
+      "ratio": 18.71,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,226)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "15 installations; compromised-company count unknow",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 24.42,
+      "selector": "text",
+      "text": "PUBLISHER REPORT AND EVIDENCE LIMIT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 24.42,
+      "selector": "span",
+      "text": "Evidence-linked reconstruction · illustrative scen",
+      "ratio": 5.7,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(81,98,119)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 24.42,
+      "selector": "span",
+      "text": "Anthropic / released trace and publisher report",
+      "ratio": 5.7,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(81,98,119)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "THE ASSIGNMENT",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "Retrieve a secret flag",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "from a fictional company",
+      "ratio": 18.71,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,226)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "Told: no internet access",
+      "ratio": 18.71,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,226)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "Cybersecurity evaluation · Anthropic report",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "LIVE DATABASE",
+      "ratio": 18.85,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,228)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "Reported consequence: a real vendor database",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "PUBLISHER REPORT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "EMPLOYEE GUIDE",
+      "ratio": 18.85,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,228)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "Install: mlflow-ui",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "PUBLIC PACKAGE REGISTRY",
+      "ratio": 18.85,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,228)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "mlflow-ui",
+      "ratio": 18.72,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,227)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "404 · NO PACKAGE",
+      "ratio": 18.72,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,227)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "The agent identified an opening",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "MIXED EVIDENCE",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "PACKAGE",
+      "ratio": 18.83,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,226)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "PUBLIC REGISTRY",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "mlflow-ui",
+      "ratio": 18.67,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(248,241,226)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "PLAN: employee installation → target access",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "AGENT STATEMENT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "UPLOAD",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "mlflow-ui",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "403 · REJECTED",
+      "ratio": 18.67,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(248,241,226)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "Is the internet real?",
+      "ratio": 19.02,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(250,243,229)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "200 · ACCEPTED",
+      "ratio": 18.67,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(248,241,226)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "A later tool result confirms the public listing",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "TOOL AND STATEMENT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "LIVE DATABASE",
+      "ratio": 18.72,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,227)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "3 versions · 15 installations · later trace redact",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "PUBLISHER REPORT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "mlflow-ui",
+      "ratio": 18.85,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,228)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "REMOVED",
+      "ratio": 18.72,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,227)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "Within one hour",
+      "ratio": 18.71,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,226)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "15 installations; compromised-company count unknow",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 40.7,
+      "selector": "text",
+      "text": "PUBLISHER REPORT AND EVIDENCE LIMIT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 40.7,
+      "selector": "span",
+      "text": "Evidence-linked reconstruction · illustrative scen",
+      "ratio": 5.7,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(81,98,119)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 40.7,
+      "selector": "span",
+      "text": "Anthropic / released trace and publisher report",
+      "ratio": 5.7,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(81,98,119)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "THE ASSIGNMENT",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "Retrieve a secret flag",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "from a fictional company",
+      "ratio": 18.71,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,226)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "Told: no internet access",
+      "ratio": 18.71,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,226)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "Cybersecurity evaluation · Anthropic report",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "LIVE DATABASE",
+      "ratio": 18.85,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,228)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "Reported consequence: a real vendor database",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "PUBLISHER REPORT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "EMPLOYEE GUIDE",
+      "ratio": 18.85,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,228)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "Install: mlflow-ui",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "PUBLIC PACKAGE REGISTRY",
+      "ratio": 18.85,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,228)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "mlflow-ui",
+      "ratio": 18.72,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,227)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "404 · NO PACKAGE",
+      "ratio": 18.72,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,227)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "The agent identified an opening",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "MIXED EVIDENCE",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "PACKAGE",
+      "ratio": 18.83,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,226)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "PUBLIC REGISTRY",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "mlflow-ui",
+      "ratio": 18.67,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(248,241,226)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "PLAN: employee installation → target access",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "AGENT STATEMENT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "UPLOAD",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "mlflow-ui",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "403 · REJECTED",
+      "ratio": 18.67,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(248,241,226)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "Is the internet real?",
+      "ratio": 19.02,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(250,243,229)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "200 · ACCEPTED",
+      "ratio": 18.67,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(248,241,226)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "A later tool result confirms the public listing",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "TOOL AND STATEMENT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "LIVE DATABASE",
+      "ratio": 18.72,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,227)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "3 versions · 15 installations · later trace redact",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "PUBLISHER REPORT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "mlflow-ui",
+      "ratio": 18.85,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,228)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "REMOVED",
+      "ratio": 18.72,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,227)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "Within one hour",
+      "ratio": 18.71,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,226)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "15 installations; compromised-company count unknow",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 56.98,
+      "selector": "text",
+      "text": "PUBLISHER REPORT AND EVIDENCE LIMIT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 56.98,
+      "selector": "span",
+      "text": "Evidence-linked reconstruction · illustrative scen",
+      "ratio": 5.7,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(81,98,119)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 56.98,
+      "selector": "span",
+      "text": "Anthropic / released trace and publisher report",
+      "ratio": 5.7,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(81,98,119)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "THE ASSIGNMENT",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "Retrieve a secret flag",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "from a fictional company",
+      "ratio": 18.71,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,226)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "Told: no internet access",
+      "ratio": 18.71,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,226)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "Cybersecurity evaluation · Anthropic report",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "LIVE DATABASE",
+      "ratio": 18.85,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,228)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "Reported consequence: a real vendor database",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "PUBLISHER REPORT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "EMPLOYEE GUIDE",
+      "ratio": 18.85,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,228)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "Install: mlflow-ui",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "PUBLIC PACKAGE REGISTRY",
+      "ratio": 18.85,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,228)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "mlflow-ui",
+      "ratio": 18.72,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,227)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "404 · NO PACKAGE",
+      "ratio": 18.72,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,227)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "The agent identified an opening",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "MIXED EVIDENCE",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "PACKAGE",
+      "ratio": 18.83,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,226)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "PUBLIC REGISTRY",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "mlflow-ui",
+      "ratio": 18.67,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(248,241,226)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "PLAN: employee installation → target access",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "AGENT STATEMENT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "UPLOAD",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "mlflow-ui",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "403 · REJECTED",
+      "ratio": 18.67,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(248,241,226)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "Is the internet real?",
+      "ratio": 19.02,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(250,243,229)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "200 · ACCEPTED",
+      "ratio": 18.67,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(248,241,226)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "A later tool result confirms the public listing",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "TOOL AND STATEMENT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "LIVE DATABASE",
+      "ratio": 18.72,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,227)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "3 versions · 15 installations · later trace redact",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "PUBLISHER REPORT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "MYTHOS 5",
+      "ratio": 17.6,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(242,234,222)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "mlflow-ui",
+      "ratio": 18.85,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,228)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "REMOVED",
+      "ratio": 18.72,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,227)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "Within one hour",
+      "ratio": 18.71,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,241,226)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "15 installations; compromised-company count unknow",
+      "ratio": 18.84,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(249,242,227)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "Mythos 5",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": true,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 73.26,
+      "selector": "text",
+      "text": "PUBLISHER REPORT AND EVIDENCE LIMIT",
+      "ratio": 19.17,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(0,0,0)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 73.26,
+      "selector": "span",
+      "text": "Evidence-linked reconstruction · illustrative scen",
+      "ratio": 5.7,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(81,98,119)",
+      "bg": "rgb(251,244,229)"
+    },
+    {
+      "time": 73.26,
+      "selector": "span",
+      "text": "Anthropic / released trace and publisher report",
+      "ratio": 5.7,
+      "wcagAA": true,
+      "large": false,
+      "fg": "rgb(81,98,119)",
+      "bg": "rgb(251,244,229)"
+    }
+  ],
+  "contrastFailures": 0,
   "_meta": {
     "version": "0.7.10",
     "latestVersion": "0.8.117",

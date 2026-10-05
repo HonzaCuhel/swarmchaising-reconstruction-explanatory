@@ -9,3 +9,4 @@ node_modules/
 videos/.*.rendering.mp4
 hyperframes/*/verification/*.log
 hyperframes/*/verification/encoded/
+hyperframes/*/snapshots/

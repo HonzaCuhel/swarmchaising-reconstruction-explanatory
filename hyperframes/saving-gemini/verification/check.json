@@ -1,0 +1,329 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 7
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 3,
+    "infoCount": 3,
+    "findings": [
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.485,
+        "selector": "#saving-gemini-scene-01-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 81.84,
+          "top": 203,
+          "right": 1520,
+          "bottom": 1286.14,
+          "width": 1438.16,
+          "height": 1083.14
+        },
+        "containerSelector": "#saving-gemini-scene-01 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "bottom": 206.14
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-01.html",
+        "bbox": {
+          "x": 81.84,
+          "y": 203,
+          "width": 1438.16,
+          "height": 1083.14
+        },
+        "firstSeen": 4.485,
+        "lastSeen": 13.456,
+        "occurrences": 2,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 31.396,
+        "selector": "#saving-gemini-scene-03-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 81.84,
+          "top": 270,
+          "right": 1520,
+          "bottom": 1286.14,
+          "width": 1438.16,
+          "height": 1016.14
+        },
+        "containerSelector": "#saving-gemini-scene-03 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "bottom": 206.14
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-03.html",
+        "bbox": {
+          "x": 81.84,
+          "y": 270,
+          "width": 1438.16,
+          "height": 1016.14
+        },
+        "firstSeen": 31.396,
+        "lastSeen": 40.367,
+        "occurrences": 2,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 58.307,
+        "selector": "#saving-gemini-scene-05-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 81.84,
+          "top": 190,
+          "right": 1676,
+          "bottom": 1286.14,
+          "width": 1594.16,
+          "height": 1096.14
+        },
+        "containerSelector": "#saving-gemini-scene-05 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "bottom": 206.14
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-05.html",
+        "bbox": {
+          "x": 81.84,
+          "y": 190,
+          "width": 1594.16,
+          "height": 1096.14
+        },
+        "firstSeen": 58.307,
+        "lastSeen": 67.278,
+        "occurrences": 2,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 22.426,
+        "selector": "#saving-gemini-scene-02-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -841.02,
+          "top": -100.39,
+          "right": 1448.36,
+          "bottom": 870,
+          "width": 2289.38,
+          "height": 970.39
+        },
+        "containerSelector": "#saving-gemini-scene-02 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "left": 841.02,
+          "top": 100.39
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-02.html",
+        "bbox": {
+          "x": -841.02,
+          "y": -100.39,
+          "width": 2289.38,
+          "height": 970.39
+        },
+        "firstSeen": 22.426,
+        "lastSeen": 22.426,
+        "occurrences": 1,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 49.337,
+        "selector": "#saving-gemini-scene-04-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -841.02,
+          "top": -100.39,
+          "right": 1575,
+          "bottom": 870,
+          "width": 2416.02,
+          "height": 970.39
+        },
+        "containerSelector": "#saving-gemini-scene-04 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "left": 841.02,
+          "top": 100.39
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-04.html",
+        "bbox": {
+          "x": -841.02,
+          "y": -100.39,
+          "width": 2416.02,
+          "height": 970.39
+        },
+        "firstSeen": 49.337,
+        "lastSeen": 49.337,
+        "occurrences": 1,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 76.248,
+        "selector": "#saving-gemini-scene-06-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -841.02,
+          "top": -100.39,
+          "right": 1555,
+          "bottom": 870,
+          "width": 2396.02,
+          "height": 970.39
+        },
+        "containerSelector": "#saving-gemini-scene-06 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "left": 841.02,
+          "top": 100.39
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-06.html",
+        "bbox": {
+          "x": -841.02,
+          "y": -100.39,
+          "width": 2396.02,
+          "height": 970.39
+        },
+        "firstSeen": 76.248,
+        "lastSeen": 76.248,
+        "occurrences": 1,
+        "heldMs": 0
+      }
+    ],
+    "duration": 80.73333333333333,
+    "samples": [
+      4.485,
+      13.456,
+      22.426,
+      31.396,
+      40.367,
+      49.337,
+      58.307,
+      67.278,
+      76.248
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 6,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      4.485,
+      22.426,
+      40.367,
+      58.307,
+      76.248
+    ],
+    "checked": 46,
+    "passed": 46
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "_meta": {
+    "version": "0.8.117",
+    "latestVersion": "0.8.117",
+    "updateAvailable": false
+  }
+}

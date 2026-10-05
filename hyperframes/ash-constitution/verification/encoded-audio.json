@@ -1,0 +1,25 @@
+{
+  "case": "ash-constitution",
+  "video_sha256": "ff94f31dcc67d77ee856a6a9fa8863233c27b4b6e144e55607d5a9187f292730",
+  "method": "Compare mono 2 kHz PCM against aligned narration; 2-second windows, +/- 200 ms search",
+  "audio_alignment": [
+    {
+      "at_seconds": 5,
+      "lag_seconds": 0.0,
+      "correlation": 0.99992
+    },
+    {
+      "at_seconds": 41.15,
+      "lag_seconds": 0.0,
+      "correlation": 0.99996
+    },
+    {
+      "at_seconds": 75.3,
+      "lag_seconds": 0.0,
+      "correlation": 0.99981
+    }
+  ],
+  "audio_alignment_status": "passed: less than one frame, correlation above 0.8",
+  "listening_review": "not performed: audio perception unavailable",
+  "caption_midpoints_extracted": 25
+}

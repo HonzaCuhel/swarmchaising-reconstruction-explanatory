@@ -1,0 +1,372 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 7
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 2,
+    "infoCount": 5,
+    "findings": [
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.424,
+        "selector": "#opus-loan-scene-01-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 81.84,
+          "top": 270,
+          "right": 1565,
+          "bottom": 1286.14,
+          "width": 1483.16,
+          "height": 1016.14
+        },
+        "containerSelector": "#opus-loan-scene-01 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "bottom": 206.14
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-01.html",
+        "bbox": {
+          "x": 81.84,
+          "y": 270,
+          "width": 1483.16,
+          "height": 1016.14
+        },
+        "firstSeen": 4.424,
+        "lastSeen": 13.272,
+        "occurrences": 2,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 30.969,
+        "selector": "#opus-loan-scene-03-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 81.84,
+          "top": 290,
+          "right": 1560,
+          "bottom": 1286.14,
+          "width": 1478.16,
+          "height": 996.14
+        },
+        "containerSelector": "#opus-loan-scene-03 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "bottom": 206.14
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-03.html",
+        "bbox": {
+          "x": 81.84,
+          "y": 290,
+          "width": 1478.16,
+          "height": 996.14
+        },
+        "firstSeen": 30.969,
+        "lastSeen": 39.817,
+        "occurrences": 2,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 22.12,
+        "selector": "#opus-loan-scene-02-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 81.84,
+          "top": 245,
+          "right": 1545,
+          "bottom": 1286.14,
+          "width": 1463.16,
+          "height": 1041.14
+        },
+        "containerSelector": "#opus-loan-scene-02 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "bottom": 206.14
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-02.html",
+        "bbox": {
+          "x": 81.84,
+          "y": 245,
+          "width": 1463.16,
+          "height": 1041.14
+        },
+        "firstSeen": 22.12,
+        "lastSeen": 22.12,
+        "occurrences": 1,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 48.665,
+        "selector": "#opus-loan-scene-04-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 81.84,
+          "top": 300,
+          "right": 2587.54,
+          "bottom": 1286.14,
+          "width": 2505.7,
+          "height": 986.14
+        },
+        "containerSelector": "#opus-loan-scene-04 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "right": 667.54,
+          "bottom": 206.14
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-04.html",
+        "bbox": {
+          "x": 81.84,
+          "y": 300,
+          "width": 2505.7,
+          "height": 986.14
+        },
+        "firstSeen": 48.665,
+        "lastSeen": 48.665,
+        "occurrences": 1,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 57.513,
+        "selector": "#opus-loan-scene-05-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -876.22,
+          "top": -100.39,
+          "right": 1510,
+          "bottom": 870,
+          "width": 2386.22,
+          "height": 970.39
+        },
+        "containerSelector": "#opus-loan-scene-05 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "left": 876.22,
+          "top": 100.39
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-05.html",
+        "bbox": {
+          "x": -876.22,
+          "y": -100.39,
+          "width": 2386.22,
+          "height": 970.39
+        },
+        "firstSeen": 57.513,
+        "lastSeen": 57.513,
+        "occurrences": 1,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 66.361,
+        "selector": "#opus-loan-scene-05-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -914.04,
+          "top": -119.79,
+          "right": 1531.02,
+          "bottom": 873.81,
+          "width": 2445.06,
+          "height": 993.6
+        },
+        "containerSelector": "#opus-loan-scene-05 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "left": 914.04,
+          "top": 119.79
+        },
+        "dataAttributes": {
+          "data-svg-origin": "334.4918212890625 384.8072814941406"
+        },
+        "sourceFile": "compositions/scene-05.html",
+        "bbox": {
+          "x": -914.04,
+          "y": -119.79,
+          "width": 2445.06,
+          "height": 993.6
+        },
+        "firstSeen": 66.361,
+        "lastSeen": 66.361,
+        "occurrences": 1,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 75.209,
+        "selector": "#opus-loan-scene-06-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -841.02,
+          "top": -100.39,
+          "right": 1550,
+          "bottom": 855,
+          "width": 2391.02,
+          "height": 955.39
+        },
+        "containerSelector": "#opus-loan-scene-06 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "left": 841.02,
+          "top": 100.39
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-06.html",
+        "bbox": {
+          "x": -841.02,
+          "y": -100.39,
+          "width": 2391.02,
+          "height": 955.39
+        },
+        "firstSeen": 75.209,
+        "lastSeen": 75.209,
+        "occurrences": 1,
+        "heldMs": 0
+      }
+    ],
+    "duration": 79.63333333333334,
+    "samples": [
+      4.424,
+      13.272,
+      22.12,
+      30.969,
+      39.817,
+      48.665,
+      57.513,
+      66.361,
+      75.209
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 7,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      4.424,
+      22.12,
+      39.817,
+      57.513,
+      75.209
+    ],
+    "checked": 49,
+    "passed": 49
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "_meta": {
+    "version": "0.8.117",
+    "latestVersion": "0.8.117",
+    "updateAvailable": false
+  }
+}

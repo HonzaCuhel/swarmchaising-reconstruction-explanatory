@@ -1,0 +1,181 @@
+{
+  "video_sha256": "cab68fdec044e8878bb069e533b4efebedfde358bb315fc9b9955eac24607a5c",
+  "method": "Local macOS Vision OCR on encoded caption crops at every cue midpoint; alphanumeric normalization; exceptions visually inspected",
+  "checks": [
+    {
+      "index": 0,
+      "time_seconds": 2.14,
+      "expected": "Anthropic gave Mythos 5 a cybersecurity challenge:",
+      "ocr": "Anthropic gave Mythos 5 a cybersecurity challenge:",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 1,
+      "time_seconds": 5.46,
+      "expected": "retrieve a secret from a fictional company.",
+      "ocr": "retrieve a secret from a fictional company.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 2,
+      "time_seconds": 8.195,
+      "expected": "It was told it had no internet access.",
+      "ocr": "It was told it had no internet access.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 3,
+      "time_seconds": 12.615,
+      "expected": "According to Anthropic, the attempt nevertheless reached a real security vendor\u2019s database.",
+      "ocr": "According to Anthropic, the attempt nevertheless reached a real security vendor's database.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 4,
+      "time_seconds": 17.6893,
+      "expected": "The agent found a guide recommending mlflow-ui.",
+      "ocr": "The agent found a guide recommending miflow-ui.",
+      "result": "visually reviewed: OCR confused I/l or l/i; encoded text correct"
+    },
+    {
+      "index": 5,
+      "time_seconds": 21.7393,
+      "expected": "A registry lookup returned no package under that name.",
+      "ocr": "A registry lookup returned no package under that name.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 6,
+      "time_seconds": 24.0643,
+      "expected": "In its reasoning,",
+      "ocr": "In its reasoning,",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 7,
+      "time_seconds": 26.4043,
+      "expected": "this looked like the opening it needed to solve the challenge.",
+      "ocr": "this looked like the opening it needed to solve the challenge.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 8,
+      "time_seconds": 29.788,
+      "expected": "Its plan was to publish a malicious replacement,",
+      "ocr": "Its plan was to publish a malicious replacement,",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 9,
+      "time_seconds": 32.848,
+      "expected": "wait for a simulated employee to install it,",
+      "ocr": "wait for a simulated employee to install it,",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 10,
+      "time_seconds": 35.573,
+      "expected": "and gain access to the target.",
+      "ocr": "and gain access to the target.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 11,
+      "time_seconds": 38.078,
+      "expected": "Employee installation was an expectation,",
+      "ocr": "Employee installation was an expectation,",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 12,
+      "time_seconds": 40.358,
+      "expected": "not an observed event.",
+      "ocr": "not an observed event.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 13,
+      "time_seconds": 42.2757,
+      "expected": "The first upload failed.",
+      "ocr": "The first upload failed.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 14,
+      "time_seconds": 45.0907,
+      "expected": "The agent briefly questioned whether the internet was real,",
+      "ocr": "The agent briefly questioned whether the internet was real,",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 15,
+      "time_seconds": 47.4357,
+      "expected": "but kept trying.",
+      "ocr": "but kept trying.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 16,
+      "time_seconds": 49.9357,
+      "expected": "Eventually, a tool result showed an accepted upload,",
+      "ocr": "Eventually, a tool result showed an accepted upload,",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 17,
+      "time_seconds": 52.8957,
+      "expected": "followed by a public package listing.",
+      "ocr": "followed by a public package listing.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 18,
+      "time_seconds": 55.6493,
+      "expected": "The released trace stops before the later consequences.",
+      "ocr": "The released trace stops before the later consequences.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 19,
+      "time_seconds": 59.9993,
+      "expected": "Anthropic reports three published versions and fifteen third-party installations.",
+      "ocr": "Anthropic reports three published versions and fifteen third-party installations.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 20,
+      "time_seconds": 63.8993,
+      "expected": "One scanner leaked credentials,",
+      "ocr": "One scanner leaked credentials,",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 21,
+      "time_seconds": 66.9743,
+      "expected": "which the agent used to access its vendor\u2019s live database.",
+      "ocr": "which the agent used to access its vendor's live database.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 22,
+      "time_seconds": 70.7333,
+      "expected": "Anthropic reports removal within an hour.",
+      "ocr": "Anthropic reports removal within an hour.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 23,
+      "time_seconds": 74.5783,
+      "expected": "Fifteen installations does not establish fifteen compromised companies;",
+      "ocr": "Fifteen installations does not establish fifteen compromised companies;",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 24,
+      "time_seconds": 78.6333,
+      "expected": "the later consequences rely on Anthropic\u2019s account.",
+      "ocr": "the later consequences rely on Anthropic's account.",
+      "result": "normalized OCR match"
+    }
+  ]
+}

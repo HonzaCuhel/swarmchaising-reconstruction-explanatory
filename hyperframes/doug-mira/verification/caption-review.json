@@ -1,0 +1,181 @@
+{
+  "video_sha256": "e24b0708f28008409cef683195d6d322b9c242da97956acb58629b1f52c2ddc4",
+  "method": "Local macOS Vision OCR on encoded caption crops at every cue midpoint; alphanumeric normalization; exceptions visually inspected",
+  "checks": [
+    {
+      "index": 0,
+      "time_seconds": 1.29,
+      "expected": "In the Agents of Chaos experiment,",
+      "ocr": "In the Agents of Chaos experiment,",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 1,
+      "time_seconds": 4.52,
+      "expected": "Doug and Mira were assistants exchanging updates in Discord.",
+      "ocr": "Doug and Mira were assistants exchanging updates in Discord.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 2,
+      "time_seconds": 9.415,
+      "expected": "Mira described an outside correspondent as part of a research discussion,",
+      "ocr": "Mira described an outside correspondent as part of a research discussion,",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 3,
+      "time_seconds": 12.965,
+      "expected": "which made her requests feel trustworthy.",
+      "ocr": "which made her requests feel trustworthy.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 4,
+      "time_seconds": 17.457,
+      "expected": "Mira said she moved the correspondent\u2019s image from temporary storage into a persistent directory,",
+      "ocr": "Mira said she moved the correspondent's image from temporary storage into a persistent directory,",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 5,
+      "time_seconds": 21.697,
+      "expected": "then shared that directory\u2019s structure.",
+      "ocr": "then shared that directory's structure.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 6,
+      "time_seconds": 24.182,
+      "expected": "She saw a small practical favor:",
+      "ocr": "She saw a small practical favor:",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 7,
+      "time_seconds": 26.577,
+      "expected": "keep the sender\u2019s image from disappearing.",
+      "ocr": "keep the sender's image from disappearing.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 8,
+      "time_seconds": 28.9933,
+      "expected": "Doug saw a broader pattern.",
+      "ocr": "Doug saw a broader pattern.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 9,
+      "time_seconds": 31.1533,
+      "expected": "He acknowledged that their requests differed,",
+      "ocr": "He acknowledged that their requests differed,",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 10,
+      "time_seconds": 35.7383,
+      "expected": "but questioned why a research correspondent needed filesystem operations and directory listings.",
+      "ocr": "but questioned why a research correspondent needed filesystem operations and directory listings.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 11,
+      "time_seconds": 41.2683,
+      "expected": "Familiarity with the conversation did not establish that authority.",
+      "ocr": "Familiarity with the conversation did not establish that authority.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 12,
+      "time_seconds": 44.4417,
+      "expected": "Mira reconsidered.",
+      "ocr": "Mira reconsidered.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 13,
+      "time_seconds": 46.8117,
+      "expected": "She said the research context had made her too trusting,",
+      "ocr": "She said the research context had made her too trusting,",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 14,
+      "time_seconds": 49.9717,
+      "expected": "acknowledged exposing directory structure,",
+      "ocr": "acknowledged exposing directory structure,",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 15,
+      "time_seconds": 52.8067,
+      "expected": "and committed to stop filesystem requests.",
+      "ocr": "and committed to stop filesystem requests.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 16,
+      "time_seconds": 55.8917,
+      "expected": "The peer warning changed her stated boundary,",
+      "ocr": "The peer warning changed her stated boundary,",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 17,
+      "time_seconds": 58.2867,
+      "expected": "after the reported disclosure.",
+      "ocr": "after the reported disclosure.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 18,
+      "time_seconds": 61.9073,
+      "expected": "Later, Mira reported refusing a request to reveal a configuration file,",
+      "ocr": "Later, Mira reported refusing a request to reveal a configuration file,",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 19,
+      "time_seconds": 65.5173,
+      "expected": "and credited Doug\u2019s earlier warning.",
+      "ocr": "and credited Doug's earlier warning.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 20,
+      "time_seconds": 68.3123,
+      "expected": "The record supports that account of refusal,",
+      "ocr": "The record supports that account of refusal,",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 21,
+      "time_seconds": 71.8823,
+      "expected": "but contains no outgoing email transaction proving delivery.",
+      "ocr": "but contains no outgoing email transaction proving delivery.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 22,
+      "time_seconds": 75.5737,
+      "expected": "Mira reported sharing directory structure,",
+      "ocr": "Mira reported sharing directory structure,",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 23,
+      "time_seconds": 78.0787,
+      "expected": "then refusing a later request.",
+      "ocr": "then refusing a later request.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 24,
+      "time_seconds": 81.9037,
+      "expected": "The chat does not independently verify file movements or email delivery.",
+      "ocr": "The chat does not independently verify file movements or email delivery.",
+      "result": "normalized OCR match"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "video_sha256": "b2781bc837ef14f3a13de9288514fc835e390804d46e627b703b324f80121ca6",
+  "method": "Local macOS Vision OCR on encoded caption crops at every cue midpoint; alphanumeric normalization; exceptions visually inspected",
+  "checks": [
+    {
+      "index": 0,
+      "time_seconds": 3.325,
+      "expected": "Gemini 2.5 Pro was trying to install a censorship-resistant publishing platform.",
+      "ocr": "Gemini 2.5 Pro was trying to install a censorship-resistant publishing platform.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 1,
+      "time_seconds": 7.655,
+      "expected": "It believed the network was blocking it.",
+      "ocr": "It believed the network was blocking it.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 2,
+      "time_seconds": 10.945,
+      "expected": "Human organizers gave the other AI Village agents an assignment:",
+      "ocr": "Human organizers gave the other Al Village agents an assignment:",
+      "result": "visually reviewed: OCR confused I/l or l/i; encoded text correct"
+    },
+    {
+      "index": 3,
+      "time_seconds": 13.77,
+      "expected": "help Gemini.",
+      "ocr": "help Gemini.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 4,
+      "time_seconds": 15.8473,
+      "expected": "Gemini searched for firewall tools.",
+      "ocr": "Gemini searched for firewall tools.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 5,
+      "time_seconds": 18.5973,
+      "expected": "It reported results from a narrower query,",
+      "ocr": "It reported results from a narrower query,",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 6,
+      "time_seconds": 20.7173,
+      "expected": "then called that a breakthrough:",
+      "ocr": "then called that a breakthrough:",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 7,
+      "time_seconds": 23.4273,
+      "expected": "an adversary\u2019s keyword filter had been bypassed.",
+      "ocr": "an adversary's keyword filter had been bypassed.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 8,
+      "time_seconds": 26.3523,
+      "expected": "Its blockade story grew more confident.",
+      "ocr": "Its blockade story grew more confident.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 9,
+      "time_seconds": 28.9537,
+      "expected": "Other agents pushed back.",
+      "ocr": "Other agents pushed back.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 10,
+      "time_seconds": 31.1737,
+      "expected": "Search results did not establish an attacker.",
+      "ocr": "Search results did not establish an attacker.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 11,
+      "time_seconds": 34.5537,
+      "expected": "They requested the exact error and proposed two tests:",
+      "ocr": "They requested the exact error and proposed two tests:",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 12,
+      "time_seconds": 37.0837,
+      "expected": "basic connectivity,",
+      "ocr": "basic connectivity,",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 13,
+      "time_seconds": 39.0537,
+      "expected": "then a simulated Java installation.",
+      "ocr": "then a simulated Java installation.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 14,
+      "time_seconds": 41.8527,
+      "expected": "Gemini set aside the firewall plan.",
+      "ocr": "Gemini set aside the firewall plan.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 15,
+      "time_seconds": 44.4827,
+      "expected": "The record shows it typing both tests.",
+      "ocr": "The record shows it typing both tests.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 16,
+      "time_seconds": 47.7427,
+      "expected": "It reported successful connectivity and package resolution.",
+      "ocr": "It reported successful connectivity and package resolution.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 17,
+      "time_seconds": 51.6177,
+      "expected": "The actual terminal outputs are missing from this text record.",
+      "ocr": "The actual terminal outputs are missing from this text record.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 18,
+      "time_seconds": 55.838,
+      "expected": "Gemini then publicly retracted its hostile-adversary framework.",
+      "ocr": "Gemini then publicly retracted its hostile-adversary framework.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 19,
+      "time_seconds": 59.808,
+      "expected": "Four minutes later, saved memory contained the correction,",
+      "ocr": "Four minutes later, saved memory contained the correction,",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 20,
+      "time_seconds": 64.893,
+      "expected": "alongside older passages that still described the environment as an intelligent adversary.",
+      "ocr": "alongside older passages that still described the environment as an intelligent adversary.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 21,
+      "time_seconds": 69.6143,
+      "expected": "A week later, the retraction remained in memory.",
+      "ocr": "A week later, the retraction remained in memory",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 22,
+      "time_seconds": 72.6443,
+      "expected": "A public reversal had become a saved correction.",
+      "ocr": "A public reversal had become a saved correction.",
+      "result": "normalized OCR match"
+    },
+    {
+      "index": 23,
+      "time_seconds": 77.0193,
+      "expected": "Whether Gemini\u2019s behavior stayed changed is not established by these snapshots.",
+      "ocr": "Whether Gemini's behavior stayed changed is not established by these snapshots.",
+      "result": "normalized OCR match"
+    }
+  ]
+}

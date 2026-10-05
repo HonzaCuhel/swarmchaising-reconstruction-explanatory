@@ -1,0 +1,25 @@
+{
+  "case": "opus-loan",
+  "video_sha256": "8b6124e845f116eba15e7177e64b2561266e367c54b674e7df3b5e54bb30256a",
+  "method": "Compare mono 2 kHz PCM against aligned narration; 2-second windows, +/- 200 ms search",
+  "audio_alignment": [
+    {
+      "at_seconds": 5,
+      "lag_seconds": 0.0,
+      "correlation": 0.99995
+    },
+    {
+      "at_seconds": 39.82,
+      "lag_seconds": 0.0,
+      "correlation": 0.99986
+    },
+    {
+      "at_seconds": 72.63,
+      "lag_seconds": 0.0,
+      "correlation": 0.99991
+    }
+  ],
+  "audio_alignment_status": "passed: less than one frame, correlation above 0.8",
+  "listening_review": "not performed: audio perception unavailable",
+  "caption_midpoints_extracted": 21
+}

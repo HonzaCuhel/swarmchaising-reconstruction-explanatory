@@ -52,5 +52,5 @@
     }
   ],
   "media_input": "narration only; no video input",
-  "status": "native_authored_pending_browser_render"
+  "status": "native_source_authored"
 }

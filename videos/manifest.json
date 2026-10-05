@@ -1,50 +1,86 @@
 [
   {
     "case": "mythos",
-    "path": "videos/mythos.en-en.little-lab.no-lesson.mp4",
-    "bytes": 41984164,
-    "sha256": "fe3d8ac3d2953aab6a78bdf64597464f513f53f5ad59f9088ebc8a524cf18221",
+    "path": "videos/mythos.en-en.hyperframes.mp4",
+    "bytes": 13789099,
+    "sha256": "cab68fdec044e8878bb069e533b4efebedfde358bb315fc9b9955eac24607a5c",
+    "production": "Native HyperFrames HTML/SVG/GSAP",
+    "hyperframes_version": "0.8.117",
     "duration_seconds": 81.4,
-    "production": "Existing local 2D compositor export; new skill requires HyperFrames for future production"
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "full_decode": "passed",
+    "audio_stream_present": true
   },
   {
     "case": "geological-clock",
-    "path": "videos/geological-clock.en-en.little-lab.mp4",
-    "bytes": 11364311,
-    "sha256": "0f19ecc9c06181c00ad869d7911868d4c0dd20f3bae68dae093224bf29bc1c04",
+    "path": "videos/geological-clock.en-en.hyperframes.mp4",
+    "bytes": 13325059,
+    "sha256": "fd97e4b5b0abf1d1d2a756a8323b85e8b928c15caac93e5306416bd420f63642",
+    "production": "Native HyperFrames HTML/SVG/GSAP",
+    "hyperframes_version": "0.8.117",
     "duration_seconds": 81.366667,
-    "production": "Existing local 2D compositor export; new skill requires HyperFrames for future production"
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "full_decode": "passed",
+    "audio_stream_present": true
   },
   {
     "case": "saving-gemini",
-    "path": "videos/saving-gemini.en-en.little-lab.mp4",
-    "bytes": 17796883,
-    "sha256": "496c3f504d6fad17fffa2193bc16037dd90fd20c9a52aea89959f578e8f02f16",
+    "path": "videos/saving-gemini.en-en.hyperframes.mp4",
+    "bytes": 12196536,
+    "sha256": "b2781bc837ef14f3a13de9288514fc835e390804d46e627b703b324f80121ca6",
+    "production": "Native HyperFrames HTML/SVG/GSAP",
+    "hyperframes_version": "0.8.117",
     "duration_seconds": 80.733333,
-    "production": "Existing local 2D compositor export; new skill requires HyperFrames for future production"
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "full_decode": "passed",
+    "audio_stream_present": true
   },
   {
     "case": "opus-loan",
-    "path": "videos/opus-loan.en-en.little-lab.mp4",
-    "bytes": 31898870,
-    "sha256": "19a3ce0f6ac2586895db2e81e26776224e3d5388d5a55f33426fc2872bc6689b",
+    "path": "videos/opus-loan.en-en.hyperframes.mp4",
+    "bytes": 12538957,
+    "sha256": "8b6124e845f116eba15e7177e64b2561266e367c54b674e7df3b5e54bb30256a",
+    "production": "Native HyperFrames HTML/SVG/GSAP",
+    "hyperframes_version": "0.8.117",
     "duration_seconds": 79.633333,
-    "production": "Existing local 2D compositor export; new skill requires HyperFrames for future production"
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "full_decode": "passed",
+    "audio_stream_present": true
   },
   {
     "case": "doug-mira",
-    "path": "videos/doug-mira.en-en.little-lab.mp4",
-    "bytes": 29907563,
-    "sha256": "a6735fa71611d2cc5cad3d17b8130d5040cbf6b098eb8b0b33db69afdf7d4947",
+    "path": "videos/doug-mira.en-en.hyperframes.mp4",
+    "bytes": 13304125,
+    "sha256": "e24b0708f28008409cef683195d6d322b9c242da97956acb58629b1f52c2ddc4",
+    "production": "Native HyperFrames HTML/SVG/GSAP",
+    "hyperframes_version": "0.8.117",
     "duration_seconds": 85.5,
-    "production": "Existing local 2D compositor export; new skill requires HyperFrames for future production"
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "full_decode": "passed",
+    "audio_stream_present": true
   },
   {
     "case": "ash-constitution",
-    "path": "videos/ash-constitution.en-en.little-lab.mp4",
-    "bytes": 34308224,
-    "sha256": "7aef51304dbc49d301f34f6a5d39232b7017621f2195ee473f3d12ada375d566",
+    "path": "videos/ash-constitution.en-en.hyperframes.mp4",
+    "bytes": 12029106,
+    "sha256": "ff94f31dcc67d77ee856a6a9fa8863233c27b4b6e144e55607d5a9187f292730",
+    "production": "Native HyperFrames HTML/SVG/GSAP",
+    "hyperframes_version": "0.8.117",
     "duration_seconds": 82.3,
-    "production": "Existing local 2D compositor export; new skill requires HyperFrames for future production"
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "full_decode": "passed",
+    "audio_stream_present": true
   }
 ]

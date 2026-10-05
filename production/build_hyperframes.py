@@ -48,7 +48,10 @@ class Shot:
  def actor(self,name,x=290,pose=0,at=0,h=415):
   c=self.asset[pose];w=h*c['w']/c['h'];content=f'<svg x="{-w/2}" y="{-h}" width="{w}" height="{h}" viewBox="{c["x"]} {c["y"]} {c["w"]} {c["h"]}"><image href="assets/hero.png" width="{c["atlas_width"]}" height="{c["atlas_height"]}"/></svg>'+txt(0,48,name,29,INK,'middle',True)
   id=self.add(content,x,800,at=at,enter='left');self.move(id,at+.8,min(1.4,self.duration-2),x=34);return id
- def note(self,text,at=0,color=RED):return self.add(txt(0,0,text,30,color,bold=True),605,835,at=at)
+ def note(self,text,at=0,color=RED):
+  if hasattr(self,'last_note'):self.hide(self.last_note,max(0,at-.35))
+  self.last_note=self.add(txt(0,0,text,30,color,bold=True),605,835,at=at)
+  return self.last_note
  def camera(self,at,scale=1.07,x=-35):self.moves.append([self.id+'-stage',None,{'scale':scale,'x':x,'transformOrigin':'50% 50%','duration':1.1,'ease':'power2.inOut'},at])
  def save(self,path,title,label):
   js='const tl=gsap.timeline({paused:true});\n'
@@ -121,7 +124,7 @@ def stage(s,i):
  elif c=='saving-gemini':
   s.actor('GEMINI 2.5 PRO',pose=5 if i in (1,3,5) else 0)
   if i==0:
-   s.add(monitor('INSTALL PUBLISHING SOFTWARE',['Gemini suspects a network block']),850,340)
+   s.add(monitor('INSTALL PUBLISHING APP',['Gemini suspects a network block']),850,340)
    s.add(bubble(['Organizers: help Gemini'],640),480,175,at=mid)
   elif i==1:
    s.add(monitor('SEARCH QUERY',['Firewall tools','A narrower query returns results']),770,350)
@@ -217,8 +220,8 @@ def build(case):
  index=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=1920,height=1080"><title>{E(data['title'])}</title><script src="assets/gsap.min.js"></script><style>{css}</style></head><body><div id="root" data-composition-id="{case}" data-width="1920" data-height="1080" data-duration="{duration}" data-start="0">{slots}<audio id="narration" class="clip" src="assets/narration.m4a" data-start="0" data-duration="{duration}" data-track-index="1"></audio><div class="footer"><span>Evidence-linked reconstruction · illustrative scenes</span><span>{E(data['credit'])}</span></div></div><script>const tl=gsap.timeline({{paused:true}});window.__timelines=window.__timelines||{{}};window.__timelines[{json.dumps(case)}]=tl;</script></body></html>'''
  (p/'index.html').write_text(index)
  (p/'hyperframes.json').write_text(json.dumps({'$schema':'https://hyperframes.heygen.com/schema/hyperframes.json','paths':{'assets':'assets','blocks':'compositions','components':'compositions/components'}},indent=2)+'\n')
- (p/'scene-manifest.json').write_text(json.dumps({'case':case,'duration_seconds':duration,'scenes':scenes,'media_input':'narration only; no video input','status':'native_authored_pending_browser_render'},indent=2)+'\n')
- (p/'README.md').write_text(f'''# {data['title']} — native HyperFrames\n\nSix editable SVG/GSAP scene files are under `compositions/`. `index.html` assembles them with unchanged narration and acoustically aligned caption cues from the revised film. Illustration atlases remain local assets; actors, objects, text and motion paths are separate scene elements. There is no flattened MP4 input.\n\nStatus: authored; rendering and browser-based visual checks remain pending. Run the repository's `production/render_all.py` on a machine that permits HyperFrames to launch Chrome and bind a local server.\n\nSource credit: {data['credit']}. Narration is evidence-bounded; no lesson ending is added.\n''')
+ (p/'scene-manifest.json').write_text(json.dumps({'case':case,'duration_seconds':duration,'scenes':scenes,'media_input':'narration only; no video input','status':'native_source_authored'},indent=2)+'\n')
+ (p/'README.md').write_text(f'''# {data['title']} — native HyperFrames\n\nSix editable SVG/GSAP scene files are under `compositions/`. `index.html` assembles them with unchanged narration and acoustically aligned caption cues from the revised film. Illustration atlases remain local assets; actors, objects, text and motion paths are separate scene elements. There is no flattened MP4 input.\n\nSource: authored. See [render status](../../production/render-status.json) for the latest export and review results. Render from the repository root with `sh render.sh` in an environment permitted to launch Chrome and bind a local server.\n\nSource credit: {data['credit']}. Narration is evidence-bounded; no lesson ending is added.\n''')
  if (p/'evidence-index.json').exists():
   with (p/'README.md').open('a') as f:
    f.write('\nThe scene evidence IDs resolve in [evidence-index.json](evidence-index.json). Source records are not bundled; links and record locators are retained. Access to some upstream datasets may require permission.\n')

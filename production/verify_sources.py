@@ -64,6 +64,6 @@ def main():
   assert abs(previous-data['duration_seconds'])<1e-6
   assert len(ids)==len(set(ids)),'Duplicate assembled IDs'
   assert not re.search(r'lesson|moral|takeaway',json.dumps(data['lines']),re.I)
-  reports.append(dict(case=p.name,scenes=count,caption_cues_checked=caption_checks,evidence_ids_resolved=evidence_checked,static_contract='passed',browser_and_render='pending',narration_sha256=hashlib.sha256((p/'assets/narration.m4a').read_bytes()).hexdigest()))
+  reports.append(dict(case=p.name,scenes=count,caption_cues_checked=caption_checks,evidence_ids_resolved=evidence_checked,static_contract='passed',browser_and_render='not assessed by this static check; see render-status.json',narration_sha256=hashlib.sha256((p/'assets/narration.m4a').read_bytes()).hexdigest()))
  dest=ROOT/'production/source-verification.json';dest.write_text(json.dumps(reports,indent=2)+'\n');print(json.dumps(reports,indent=2))
 if __name__=='__main__':main()

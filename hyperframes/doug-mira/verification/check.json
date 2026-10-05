@@ -1,0 +1,333 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 7
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 3,
+    "infoCount": 3,
+    "findings": [
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.75,
+        "selector": "#doug-mira-scene-01-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 76.84,
+          "top": 235,
+          "right": 2611.31,
+          "bottom": 1286.14,
+          "width": 2534.47,
+          "height": 1051.14
+        },
+        "containerSelector": "#doug-mira-scene-01 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "right": 691.31,
+          "bottom": 206.14
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-01.html",
+        "bbox": {
+          "x": 76.84,
+          "y": 235,
+          "width": 2534.47,
+          "height": 1051.14
+        },
+        "firstSeen": 4.75,
+        "lastSeen": 14.25,
+        "occurrences": 2,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 33.25,
+        "selector": "#doug-mira-scene-03-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -846.02,
+          "top": -100.39,
+          "right": 2611.31,
+          "bottom": 1210,
+          "width": 3457.32,
+          "height": 1310.39
+        },
+        "containerSelector": "#doug-mira-scene-03 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "left": 846.02,
+          "right": 691.31,
+          "top": 100.39,
+          "bottom": 130
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-03.html",
+        "bbox": {
+          "x": -846.02,
+          "y": -100.39,
+          "width": 3457.32,
+          "height": 1310.39
+        },
+        "firstSeen": 33.25,
+        "lastSeen": 42.75,
+        "occurrences": 2,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 61.75,
+        "selector": "#doug-mira-scene-05-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -846.02,
+          "top": -100.39,
+          "right": 1530,
+          "bottom": 870,
+          "width": 2376.02,
+          "height": 970.39
+        },
+        "containerSelector": "#doug-mira-scene-05 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "left": 846.02,
+          "top": 100.39
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-05.html",
+        "bbox": {
+          "x": -846.02,
+          "y": -100.39,
+          "width": 2376.02,
+          "height": 970.39
+        },
+        "firstSeen": 61.75,
+        "lastSeen": 71.25,
+        "occurrences": 2,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 23.75,
+        "selector": "#doug-mira-scene-02-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 76.84,
+          "top": 255,
+          "right": 1750,
+          "bottom": 1286.14,
+          "width": 1673.16,
+          "height": 1031.14
+        },
+        "containerSelector": "#doug-mira-scene-02 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "bottom": 206.14
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-02.html",
+        "bbox": {
+          "x": 76.84,
+          "y": 255,
+          "width": 1673.16,
+          "height": 1031.14
+        },
+        "firstSeen": 23.75,
+        "lastSeen": 23.75,
+        "occurrences": 1,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 52.25,
+        "selector": "#doug-mira-scene-04-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -846.02,
+          "top": -100.39,
+          "right": 1535,
+          "bottom": 870,
+          "width": 2381.02,
+          "height": 970.39
+        },
+        "containerSelector": "#doug-mira-scene-04 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "left": 846.02,
+          "top": 100.39
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-04.html",
+        "bbox": {
+          "x": -846.02,
+          "y": -100.39,
+          "width": 2381.02,
+          "height": 970.39
+        },
+        "firstSeen": 52.25,
+        "lastSeen": 52.25,
+        "occurrences": 1,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 80.75,
+        "selector": "#doug-mira-scene-06-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -846.02,
+          "top": -100.39,
+          "right": 1555,
+          "bottom": 855,
+          "width": 2401.02,
+          "height": 955.39
+        },
+        "containerSelector": "#doug-mira-scene-06 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "left": 846.02,
+          "top": 100.39
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-06.html",
+        "bbox": {
+          "x": -846.02,
+          "y": -100.39,
+          "width": 2401.02,
+          "height": 955.39
+        },
+        "firstSeen": 80.75,
+        "lastSeen": 80.75,
+        "occurrences": 1,
+        "heldMs": 0
+      }
+    ],
+    "duration": 85.5,
+    "samples": [
+      4.75,
+      14.25,
+      23.75,
+      33.25,
+      42.75,
+      52.25,
+      61.75,
+      71.25,
+      80.75
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 6,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      4.75,
+      23.75,
+      42.75,
+      61.75,
+      80.75
+    ],
+    "checked": 50,
+    "passed": 50
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "_meta": {
+    "version": "0.8.117",
+    "latestVersion": "0.8.117",
+    "updateAvailable": false
+  }
+}

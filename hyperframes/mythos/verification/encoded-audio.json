@@ -1,0 +1,25 @@
+{
+  "case": "mythos",
+  "video_sha256": "cab68fdec044e8878bb069e533b4efebedfde358bb315fc9b9955eac24607a5c",
+  "method": "Compare mono 2 kHz PCM against aligned narration; 2-second windows, +/- 200 ms search",
+  "audio_alignment": [
+    {
+      "at_seconds": 5,
+      "lag_seconds": 0.0,
+      "correlation": 0.99999
+    },
+    {
+      "at_seconds": 40.7,
+      "lag_seconds": 0.0,
+      "correlation": 0.99972
+    },
+    {
+      "at_seconds": 74.4,
+      "lag_seconds": 0.0,
+      "correlation": 0.99995
+    }
+  ],
+  "audio_alignment_status": "passed: less than one frame, correlation above 0.8",
+  "listening_review": "not performed: audio perception unavailable",
+  "caption_midpoints_extracted": 25
+}

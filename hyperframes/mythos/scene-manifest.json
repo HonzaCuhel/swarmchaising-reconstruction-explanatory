@@ -8,7 +8,7 @@
       "start": 0,
       "duration": 15.789333333333333,
       "objects": 5,
-      "motions": 7
+      "motions": 8
     },
     {
       "id": "mythos-scene-02",
@@ -52,5 +52,5 @@
     }
   ],
   "media_input": "narration only; no video input",
-  "status": "native_authored_pending_browser_render"
+  "status": "native_source_authored"
 }

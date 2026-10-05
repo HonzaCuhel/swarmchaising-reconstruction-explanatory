@@ -1,13 +1,9 @@
 # Native HyperFrames production status
 
-The new project contains six separate SVG/GSAP scene compositions, local illustrations, narration and acoustic caption cues. It contains no flattened MP4 input. The existing video in `../../videos/` was produced by the earlier compositor and is not a native HyperFrames render.
+Rendered on 2026-10-05 using HyperFrames 0.8.117, six editable SVG/GSAP compositions, local illustrations, narration and existing acoustic caption cues. No flattened MP4 was used as an input.
 
-On 2026-10-05, `sh render.sh --case mythos` was executed from the repository root with HyperFrames 0.7.10. Lint passed with no errors or warnings. Runtime validation stopped while binding its local server:
+[Download the 81.4-second video](../../videos/mythos.en-en.hyperframes.mp4). The output is 1920×1080 at 30 fps. [Runtime checks](verification/check.json) passed; the complete file decoded successfully. Two layout warnings concern clipped atlas bounds; the visible characters were checked in the encoded frames. The overlapping introductory notes were corrected before the final export.
 
-```text
-listen EPERM: operation not permitted 127.0.0.1
-```
+Review covered 18 encoded scene samples, all 25 caption midpoints and three audio alignment windows. The encoded narration had zero measured lag at 2 kHz against the source recording. The caption OCR exception for `mlflow-ui` was visually checked. [Encoded scene overview](verification/encoded-overview.jpg), [caption results](verification/caption-review.json) and [audio measurements](verification/encoded-audio.json) document those checks. Continuous viewing and subjective listening are not claimed.
 
-The current attempt does not establish whether Chromium could launch: it stopped at the server gate. Inspect, rendering, encoded-picture review and audio listening did not run. See [the runtime result](verification/validate.json). No permission override or substitute renderer was used.
-
-Continue with `sh render.sh --case mythos` in an execution environment permitted to run the server and browser. Review the encoded video, aligned captions and narration before calling it delivered. The existing source notes and approved assets are ready for that continuation.
+The earlier local-server permission error was resolved through an explicitly approved execution context after the user changed the session to `on-request`. [The manifest](../../videos/manifest.json) records the current output hash; [the completion audit](../../production/completion-audit.md) states scope and remaining validation limits.

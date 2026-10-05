@@ -1,0 +1,373 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 7
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 2,
+    "infoCount": 5,
+    "findings": [
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 31.656,
+        "selector": "#mythos-scene-03-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 81.84,
+          "top": 290,
+          "right": 1590,
+          "bottom": 1286.14,
+          "width": 1508.16,
+          "height": 996.14
+        },
+        "containerSelector": "#mythos-scene-03 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "bottom": 206.14
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-03.html",
+        "bbox": {
+          "x": 81.84,
+          "y": 290,
+          "width": 1508.16,
+          "height": 996.14
+        },
+        "firstSeen": 31.656,
+        "lastSeen": 40.7,
+        "occurrences": 2,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 58.789,
+        "selector": "#mythos-scene-05-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 81.84,
+          "top": 270,
+          "right": 1705,
+          "bottom": 1286.14,
+          "width": 1623.16,
+          "height": 1016.14
+        },
+        "containerSelector": "#mythos-scene-05 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "bottom": 206.14
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-05.html",
+        "bbox": {
+          "x": 81.84,
+          "y": 270,
+          "width": 1623.16,
+          "height": 1016.14
+        },
+        "firstSeen": 58.789,
+        "lastSeen": 67.833,
+        "occurrences": 2,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 4.522,
+        "selector": "#mythos-scene-01-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 81.84,
+          "top": 250,
+          "right": 1636,
+          "bottom": 1286.14,
+          "width": 1554.16,
+          "height": 1036.14
+        },
+        "containerSelector": "#mythos-scene-01 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "bottom": 206.14
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-01.html",
+        "bbox": {
+          "x": 81.84,
+          "y": 250,
+          "width": 1554.16,
+          "height": 1036.14
+        },
+        "firstSeen": 4.522,
+        "lastSeen": 4.522,
+        "occurrences": 1,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 13.567,
+        "selector": "#mythos-scene-01-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 40.53,
+          "top": 234.46,
+          "right": 1641.31,
+          "bottom": 1301.68,
+          "width": 1600.78,
+          "height": 1067.23
+        },
+        "containerSelector": "#mythos-scene-01 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "bottom": 221.68
+        },
+        "dataAttributes": {
+          "data-svg-origin": "858.9203033447266 768.0714111328125"
+        },
+        "sourceFile": "compositions/scene-01.html",
+        "bbox": {
+          "x": 40.53,
+          "y": 234.46,
+          "width": 1600.78,
+          "height": 1067.23
+        },
+        "firstSeen": 13.567,
+        "lastSeen": 13.567,
+        "occurrences": 1,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 22.611,
+        "selector": "#mythos-scene-02-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -841.02,
+          "top": -100.39,
+          "right": 1710,
+          "bottom": 870,
+          "width": 2551.02,
+          "height": 970.39
+        },
+        "containerSelector": "#mythos-scene-02 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "left": 841.02,
+          "top": 100.39
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-02.html",
+        "bbox": {
+          "x": -841.02,
+          "y": -100.39,
+          "width": 2551.02,
+          "height": 970.39
+        },
+        "firstSeen": 22.611,
+        "lastSeen": 22.611,
+        "occurrences": 1,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 49.744,
+        "selector": "#mythos-scene-04-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -916.54,
+          "top": -119.78,
+          "right": 1554.52,
+          "bottom": 889.42,
+          "width": 2471.06,
+          "height": 1009.2
+        },
+        "containerSelector": "#mythos-scene-04 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "left": 916.54,
+          "top": 119.78
+        },
+        "dataAttributes": {
+          "data-svg-origin": "346.9918212890625 384.5445861816406"
+        },
+        "sourceFile": "compositions/scene-04.html",
+        "bbox": {
+          "x": -916.54,
+          "y": -119.78,
+          "width": 2471.06,
+          "height": 1009.2
+        },
+        "firstSeen": 49.744,
+        "lastSeen": 49.744,
+        "occurrences": 1,
+        "heldMs": 0
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 76.878,
+        "selector": "#mythos-scene-06-stage",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -841.02,
+          "top": -100.39,
+          "right": 1551.52,
+          "bottom": 855,
+          "width": 2392.53,
+          "height": 955.39
+        },
+        "containerSelector": "#mythos-scene-06 > div:nth-of-type(1) > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "left": 841.02,
+          "top": 100.39
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene-06.html",
+        "bbox": {
+          "x": -841.02,
+          "y": -100.39,
+          "width": 2392.53,
+          "height": 955.39
+        },
+        "firstSeen": 76.878,
+        "lastSeen": 76.878,
+        "occurrences": 1,
+        "heldMs": 0
+      }
+    ],
+    "duration": 81.4,
+    "samples": [
+      4.522,
+      13.567,
+      22.611,
+      31.656,
+      40.7,
+      49.744,
+      58.789,
+      67.833,
+      76.878
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 7,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      4.522,
+      22.611,
+      40.7,
+      58.789,
+      76.878
+    ],
+    "checked": 47,
+    "passed": 47
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "_meta": {
+    "version": "0.8.117",
+    "latestVersion": "0.8.117",
+    "updateAvailable": false
+  }
+}
