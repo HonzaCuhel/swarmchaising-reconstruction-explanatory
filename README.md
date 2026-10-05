@@ -37,7 +37,6 @@ These are the existing latest exports, included as examples. Mythos has the corr
 | Incident | Video | Duration |
 | --- | --- | --- |
 | mythos | [Download MP4](videos/mythos.en-en.little-lab.no-lesson.mp4) | 1:21 |
-| collusion | [Download MP4](videos/collusion.en-en.style-b.mp4) | 1:25 |
 | geological-clock | [Download MP4](videos/geological-clock.en-en.little-lab.mp4) | 1:21 |
 | saving-gemini | [Download MP4](videos/saving-gemini.en-en.little-lab.mp4) | 1:20 |
 | opus-loan | [Download MP4](videos/opus-loan.en-en.little-lab.mp4) | 1:19 |
