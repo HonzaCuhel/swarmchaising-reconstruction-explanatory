@@ -1,0 +1,19 @@
+{
+  "dependency_check": "performed 2026-10-05",
+  "node": "22.17.0 available",
+  "ffmpeg": "7.1.1 available",
+  "ffprobe": "7.1.1 available",
+  "chrome": "cached executable found; launching is not established by this check",
+  "hyperframes": "0.7.10 resolved from existing cache",
+  "launcher": "Python 3.9+ selected; cached CLI works without npm download",
+  "launcher_smoke_test": "Mythos lint passed, zero errors and warnings",
+  "earlier_denials": [
+    "listen EPERM 127.0.0.1",
+    "Chromium bootstrap handshake Permission denied (1100)",
+    "Chromium Crashpad settings Operation not permitted"
+  ],
+  "browser_launch_reattempted": false,
+  "permissions_changed": false,
+  "new_video_rendered": false,
+  "next_step": "Run sh render.sh from a terminal or execution session permitted to launch Chrome and bind a local server"
+}

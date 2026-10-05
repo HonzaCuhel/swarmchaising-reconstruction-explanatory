@@ -59,10 +59,10 @@ Six projects are authored under `hyperframes/`: Mythos, Geological Clock, Saving
 On a machine with Node.js 22+, Python 3.9+, FFmpeg and permission to run Chrome/local servers, run from this repository:
 
 ```sh
-python3 production/render_all.py
+sh render.sh
 ```
 
-The script uses a locally installed CLI or `npx --yes hyperframes@0.7.10`. That pinned version was available for static checks; an attempted update was blocked by DNS. Optional local installation: `npm install`. For a single film: `python3 production/render_all.py --case mythos`. For static checks only: `python3 production/render_all.py --lint-only`.
+The launcher selects Python 3.9+ and resolves the pinned HyperFrames CLI from local project dependencies or an existing npm cache; it does not download anything implicitly. That pinned version was available for static checks; an attempted update was blocked by DNS. Optional local installation: `npm install`. For a single film: `sh render.sh --case mythos`. For static checks only: `sh render.sh --lint-only`.
 
 The render script runs the installed version's runtime gates, performs the actual HyperFrames render, checks duration/resolution/audio and fully decodes the result, then writes `videos/<case>.en-en.hyperframes.mp4` and updates the video manifest. It also extracts 18 encoded frames per film for review. Listening, caption appearance and visual quality still require review; successful encoding alone does not prove those.
 
@@ -86,3 +86,9 @@ These are the existing latest exports, included as examples. Mythos has the corr
 ## Scope
 
 This repository contains the reusable instruction-only skill, earlier generated examples, and a separate native HyperFrames production project. The skill directory contains no production code. Case source transcripts, credentials and private working history are not included. Source references remain available in the videos and skill resources. Source records and third-party materials retain their respective rights.
+
+## Browser or local-server permission errors
+
+`listen EPERM 127.0.0.1`, Chromium `Operation not permitted`, or `MachPortRendezvous` indicate that the execution environment denied local server/browser startup. Installing another browser or changing scene code does not grant those permissions. Run `sh render.sh` from a normal terminal, or use an agent session explicitly permitted to launch the renderer and its local server. The launcher does not change sandbox policy or disable browser protections.
+
+`node production/hyperframes.mjs doctor --json` checks dependencies. A detected Chrome executable does not prove that the environment permits it to launch. Version notices and missing optional TTS/music packages are separate from browser permissions; these projects already include narration.

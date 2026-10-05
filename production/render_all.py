@@ -6,11 +6,7 @@ ROOT=Path(__file__).resolve().parents[1]
 CASES=['mythos','geological-clock','saving-gemini','opus-loan','doug-mira','ash-constitution']
 
 def cli_command():
- override=os.environ.get('HYPERFRAMES_CLI')
- if override:return ['node',override]
- installed=ROOT/'node_modules/.bin/hyperframes'
- if installed.exists():return [str(installed)]
- return ['npx','--yes','hyperframes@0.7.10']
+ return ['node',str(ROOT/'production/hyperframes.mjs')]
 
 def execute(command,log):
  print('RUN '+' '.join(command),flush=True)
@@ -19,7 +15,11 @@ def execute(command,log):
   p=subprocess.Popen(command,cwd=ROOT,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,env=env)
   for line in p.stdout:print(line,end='',flush=True);f.write(line)
   code=p.wait()
- if code:raise RuntimeError(f'Command failed ({code}); see {log.relative_to(ROOT)}')
+ if code:
+  error_text=log.read_text()
+  if any(marker in error_text for marker in ['listen EPERM','Operation not permitted','MachPortRendezvous','Permission denied (1100)']):
+   raise RuntimeError('Environment denied local server or browser startup. Run from a normal terminal or a session permitted to run HyperFrames. No retry or renderer substitution attempted. Details: '+str(log.relative_to(ROOT)))
+  raise RuntimeError(f'Command failed ({code}); see {log.relative_to(ROOT)}')
 
 def probe_and_decode(path,expected):
  p=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_format','-show_streams','-of','json',str(path)]))

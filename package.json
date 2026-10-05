@@ -6,8 +6,8 @@
   "scripts": {
     "build": "python3 production/build_hyperframes.py",
     "verify:sources": "python3 production/verify_sources.py",
-    "lint:videos": "python3 production/render_all.py --lint-only",
-    "render:videos": "python3 production/render_all.py"
+    "lint:videos": "sh render.sh --lint-only",
+    "render:videos": "sh render.sh"
   },
   "devDependencies": {
     "hyperframes": "0.7.10"
