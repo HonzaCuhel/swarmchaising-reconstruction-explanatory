@@ -10,10 +10,10 @@ __pycache__/
 **/.hyperframes/
 **/.hf-tmp/
 /hyperframes/
-production/render-status.json
-production/source-verification.json
-production/environment-check.json
-production/verification-summary.json
+/production/
+/package.json
+/package-lock.json
+/render.sh
 *.log
 *.tmp
 *.bak
@@ -22,6 +22,7 @@ production/verification-summary.json
 # Publish only the six canonical latest exports and their manifest
 /videos/*
 !/videos/manifest.json
+!/videos/VERIFICATION.md
 !/videos/mythos.en-en.hyperframes.mp4
 !/videos/geological-clock.en-en.hyperframes.mp4
 !/videos/saving-gemini.en-en.hyperframes.mp4

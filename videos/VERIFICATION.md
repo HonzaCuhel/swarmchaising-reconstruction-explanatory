@@ -1,10 +1,10 @@
 # Export verification — 2026-10-05
 
-The [video manifest](../videos/manifest.json) identifies the six checked MP4s by SHA-256. This compact record is retained with the deliverables; detailed run logs, frame samples and diagnostic JSON are local generated artifacts excluded by `.gitignore`.
+The [video manifest](manifest.json) identifies the six checked MP4s by SHA-256. This compact record is retained with the deliverables; detailed run logs, frame samples and diagnostic JSON are local generated artifacts excluded by `.gitignore`.
 
 | Check | Result |
 | --- | --- |
-| Native HyperFrames | Six real exports using pinned HyperFrames 0.8.117; 36 editable SVG/GSAP scenes; no flattened video input. |
+| Native HyperFrames | Six real exports using HyperFrames 0.8.117; 36 editable SVG/GSAP scenes; no flattened video input. |
 | Runtime and media | All six browser checks passed. Every 1920×1080, 30 fps MP4 fully decoded; durations and audio streams checked. |
 | Visual review | 18 encoded scene samples per case. Overlapping Mythos notes and Saving Gemini's long heading were fixed and rerendered. Remaining layout warnings concern clipped illustration atlas bounds checked in the visible output. |
 | Captions | All 145 cue midpoints checked using local OCR; five letter-recognition exceptions visually inspected. Existing acoustic alignment retained; no independent speech retranscription in this pass. |

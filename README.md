@@ -50,15 +50,9 @@ Choose narrative tone (for example neutral documentary, investigative or approac
 
 See [the skill](skills/incident-replay/SKILL.md) and [HyperFrames instructions](skills/incident-replay/references/hyperframes.md). The output includes the source-linked reconstruction, editable composition/assets, MP4 and verification notes. Recorded claims are not automatically human ground-truth labels.
 
-## Local production projects
-
-The reusable skill does not depend on the example projects. The `hyperframes/` working directory is local-only and excluded by `.gitignore`; its scene files, assets, narration and case notes are not included in this repository.
-
-The published videos were rendered with HyperFrames **0.8.117** at 1920×1080 and 30 fps. Review scope and limitations are recorded in [the verification summary](production/completion-audit.md). [Public Thimble design notes](skills/incident-replay/references/thimble.md) document the story and video prompts informing the skill.
-
-Optional local production helpers remain under `production/`. They require locally available case projects under `hyperframes/`, Node.js 22+, Python 3.9+, FFmpeg and permission to run Chrome/local servers. After installing the locked dependencies with `npm ci`, run `sh render.sh` for all local cases or `sh render.sh --case mythos` for one. The helpers update the canonical MP4s and manifest; checks and temporary output remain ignored.
-
 ## Latest videos — native HyperFrames
+
+The published videos were rendered with HyperFrames **0.8.117** at 1920×1080 and 30 fps. See the [verification summary](videos/VERIFICATION.md) for review scope and limitations.
 
 | Incident | Video | Duration |
 | --- | --- | --- |
@@ -75,10 +69,4 @@ Only the six latest native HyperFrames MP4s are included. Older exports, tempora
 
 ## Scope
 
-This repository contains the reusable instruction-only skill, usage documentation, six latest videos and optional production helpers. Editable case projects and reconstruction working files stay local under the ignored `hyperframes/` directory. The skill directory contains no production code. Case source transcripts, credentials and private working history are not included. Source references remain available in the videos and skill resources. Source records and third-party materials retain their respective rights.
-
-## Browser or local-server permission errors
-
-`listen EPERM 127.0.0.1`, Chromium `Operation not permitted`, or `MachPortRendezvous` indicate that the execution environment denied local server/browser startup. Installing another browser or changing scene code does not grant those permissions. Run `sh render.sh` from a normal terminal, or use an agent session explicitly permitted to launch the renderer and its local server. The launcher does not change sandbox policy or disable browser protections.
-
-`node production/hyperframes.mjs doctor --json` checks dependencies. In a managed coding-agent session, request the host’s normal execution approval when server/browser startup is denied. An `on-request` policy enables that approval; it does not itself execute the render. A detected Chrome executable does not prove that the environment permits it to launch. Version notices and missing optional TTS/music packages are separate from browser permissions; locally retained case projects already include narration.
+This repository contains the reusable instruction-only skill, usage documentation, six latest videos and their verification summary. Editable case projects and reconstruction working files stay local under the ignored `hyperframes/` directory. The skill directory contains no production code. Case source transcripts, credentials and private working history are not included. Source references remain available in the videos and skill resources. Source records and third-party materials retain their respective rights.
