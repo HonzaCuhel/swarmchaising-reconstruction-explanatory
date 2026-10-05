@@ -8,14 +8,6 @@
     "production": "Existing local 2D compositor export; new skill requires HyperFrames for future production"
   },
   {
-    "case": "collusion",
-    "path": "videos/collusion.en-en.style-b.mp4",
-    "bytes": 16290768,
-    "sha256": "6d307204e3ab9d9a56dd838e0ecfb2826e30db89ada329699d8dfb57c20cc413",
-    "duration_seconds": 85.5,
-    "production": "Existing local 2D compositor export; new skill requires HyperFrames for future production"
-  },
-  {
     "case": "geological-clock",
     "path": "videos/geological-clock.en-en.little-lab.mp4",
     "bytes": 11364311,

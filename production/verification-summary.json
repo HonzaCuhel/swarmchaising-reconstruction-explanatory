@@ -1,0 +1,19 @@
+{
+  "skill_format": "validated",
+  "relative_references": "passed",
+  "publication_scope": "passed",
+  "source_js_syntax": "36 scene scripts passed",
+  "scene_and_caption_contract": "passed; 145 caption cues",
+  "hyperframes_lint": {
+    "projects": 6,
+    "files": 42,
+    "errors": 0,
+    "warnings": 0,
+    "version": "0.7.10"
+  },
+  "video_validator_fixture": "valid media accepted; wrong duration rejected",
+  "new_mp4s_rendered": 0,
+  "new_visual_review": "not performed",
+  "browser_runtime": "blocked by existing environment permissions",
+  "claude_code_execution": "not run; format and installation documented against official docs"
+}

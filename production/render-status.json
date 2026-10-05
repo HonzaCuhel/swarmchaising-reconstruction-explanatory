@@ -1,0 +1,44 @@
+{
+  "mythos": {
+    "status": "native_source_ready_render_pending",
+    "reason": "Current agent environment denies browser launch and local server binding; earlier denial respected",
+    "static_lint": "passed",
+    "visual_review": "pending",
+    "output": "videos/mythos.en-en.hyperframes.mp4"
+  },
+  "geological-clock": {
+    "status": "native_source_ready_render_pending",
+    "reason": "Current agent environment denies browser launch and local server binding; earlier denial respected",
+    "static_lint": "passed",
+    "visual_review": "pending",
+    "output": "videos/geological-clock.en-en.hyperframes.mp4"
+  },
+  "saving-gemini": {
+    "status": "native_source_ready_render_pending",
+    "reason": "Current agent environment denies browser launch and local server binding; earlier denial respected",
+    "static_lint": "passed",
+    "visual_review": "pending",
+    "output": "videos/saving-gemini.en-en.hyperframes.mp4"
+  },
+  "opus-loan": {
+    "status": "native_source_ready_render_pending",
+    "reason": "Current agent environment denies browser launch and local server binding; earlier denial respected",
+    "static_lint": "passed",
+    "visual_review": "pending",
+    "output": "videos/opus-loan.en-en.hyperframes.mp4"
+  },
+  "doug-mira": {
+    "status": "native_source_ready_render_pending",
+    "reason": "Current agent environment denies browser launch and local server binding; earlier denial respected",
+    "static_lint": "passed",
+    "visual_review": "pending",
+    "output": "videos/doug-mira.en-en.hyperframes.mp4"
+  },
+  "ash-constitution": {
+    "status": "native_source_ready_render_pending",
+    "reason": "Current agent environment denies browser launch and local server binding; earlier denial respected",
+    "static_lint": "passed",
+    "visual_review": "pending",
+    "output": "videos/ash-constitution.en-en.hyperframes.mp4"
+  }
+}

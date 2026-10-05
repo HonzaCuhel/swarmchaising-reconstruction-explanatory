@@ -1,0 +1,56 @@
+{
+  "case": "saving-gemini",
+  "duration_seconds": 80.73333333333333,
+  "scenes": [
+    {
+      "id": "saving-gemini-scene-01",
+      "src": "compositions/scene-01.html",
+      "start": 0,
+      "duration": 14.567333333333332,
+      "objects": 3,
+      "motions": 4
+    },
+    {
+      "id": "saving-gemini-scene-02",
+      "src": "compositions/scene-02.html",
+      "start": 14.567333333333332,
+      "duration": 13.421333333333335,
+      "objects": 4,
+      "motions": 5
+    },
+    {
+      "id": "saving-gemini-scene-03",
+      "src": "compositions/scene-03.html",
+      "start": 27.988666666666667,
+      "duration": 12.503999999999998,
+      "objects": 3,
+      "motions": 4
+    },
+    {
+      "id": "saving-gemini-scene-04",
+      "src": "compositions/scene-04.html",
+      "start": 40.492666666666665,
+      "duration": 13.165333333333336,
+      "objects": 4,
+      "motions": 5
+    },
+    {
+      "id": "saving-gemini-scene-05",
+      "src": "compositions/scene-05.html",
+      "start": 53.658,
+      "duration": 14.38133333333333,
+      "objects": 5,
+      "motions": 6
+    },
+    {
+      "id": "saving-gemini-scene-06",
+      "src": "compositions/scene-06.html",
+      "start": 68.03933333333333,
+      "duration": 12.694000000000003,
+      "objects": 3,
+      "motions": 4
+    }
+  ],
+  "media_input": "narration only; no video input",
+  "status": "native_authored_pending_browser_render"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "case": "ash-constitution",
+    "scenes": 6,
+    "caption_cues_checked": 25,
+    "static_contract": "passed",
+    "browser_and_render": "pending",
+    "narration_sha256": "27845c523814e2156c48283fa2964c73b611cb910d9102567dbe4f60875c75cc"
+  },
+  {
+    "case": "doug-mira",
+    "scenes": 6,
+    "caption_cues_checked": 25,
+    "static_contract": "passed",
+    "browser_and_render": "pending",
+    "narration_sha256": "821869b1f0e5387d046b77fd1e0b1831f1799db68f1cfcadb4e4df650cf2563a"
+  },
+  {
+    "case": "geological-clock",
+    "scenes": 6,
+    "caption_cues_checked": 25,
+    "static_contract": "passed",
+    "browser_and_render": "pending",
+    "narration_sha256": "d4977cadf3fb7c1b8eb308630b5f078e86979db689df30c3ceb984a396465e42"
+  },
+  {
+    "case": "mythos",
+    "scenes": 6,
+    "caption_cues_checked": 25,
+    "static_contract": "passed",
+    "browser_and_render": "pending",
+    "narration_sha256": "a580e2577b89e0e2943aa5852283e0d8217d59a580d5465832a0e6e0b26d8b6a"
+  },
+  {
+    "case": "opus-loan",
+    "scenes": 6,
+    "caption_cues_checked": 21,
+    "static_contract": "passed",
+    "browser_and_render": "pending",
+    "narration_sha256": "b137c3e8e7fec853eca662db3cfd8182cccba183d144b077376123a130bce873"
+  },
+  {
+    "case": "saving-gemini",
+    "scenes": 6,
+    "caption_cues_checked": 24,
+    "static_contract": "passed",
+    "browser_and_render": "pending",
+    "narration_sha256": "9b51e716e7743026782a9fff96b12f8d8062b03b5e77f4dad9925a54b1ceb3e6"
+  }
+]

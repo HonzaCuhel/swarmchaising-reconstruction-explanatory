@@ -1,0 +1,56 @@
+{
+  "case": "doug-mira",
+  "duration_seconds": 85.5,
+  "scenes": [
+    {
+      "id": "doug-mira-scene-01",
+      "src": "compositions/scene-01.html",
+      "start": 0,
+      "duration": 14.552,
+      "objects": 4,
+      "motions": 6
+    },
+    {
+      "id": "doug-mira-scene-02",
+      "src": "compositions/scene-02.html",
+      "start": 14.552,
+      "duration": 13.491333333333333,
+      "objects": 5,
+      "motions": 7
+    },
+    {
+      "id": "doug-mira-scene-03",
+      "src": "compositions/scene-03.html",
+      "start": 28.043333333333333,
+      "duration": 15.603333333333335,
+      "objects": 4,
+      "motions": 6
+    },
+    {
+      "id": "doug-mira-scene-04",
+      "src": "compositions/scene-04.html",
+      "start": 43.64666666666667,
+      "duration": 15.880666666666663,
+      "objects": 3,
+      "motions": 4
+    },
+    {
+      "id": "doug-mira-scene-05",
+      "src": "compositions/scene-05.html",
+      "start": 59.52733333333333,
+      "duration": 14.771333333333331,
+      "objects": 3,
+      "motions": 4
+    },
+    {
+      "id": "doug-mira-scene-06",
+      "src": "compositions/scene-06.html",
+      "start": 74.29866666666666,
+      "duration": 11.201333333333338,
+      "objects": 2,
+      "motions": 3
+    }
+  ],
+  "media_input": "narration only; no video input",
+  "status": "native_authored_pending_browser_render"
+}

@@ -1,4 +1,4 @@
 interface:
-  display_name: "Incident Replay"
+  display_name: "SwarmChaseExplanator"
   short_description: "Reconstruct incidents and create public-facing videos"
   default_prompt: "Use $incident-replay to reconstruct what happened from these records and create a scene-led video for a public audience, respecting the requested scope and presentation settings."
