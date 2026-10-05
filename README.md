@@ -50,25 +50,13 @@ Choose narrative tone (for example neutral documentary, investigative or approac
 
 See [the skill](skills/incident-replay/SKILL.md) and [HyperFrames instructions](skills/incident-replay/references/hyperframes.md). The output includes the source-linked reconstruction, editable composition/assets, MP4 and verification notes. Recorded claims are not automatically human ground-truth labels.
 
-## Native HyperFrames projects
+## Local production projects
 
-Six projects are authored under `hyperframes/`: Mythos, Geological Clock, Saving Gemini, Opus loan, Doug–Mira and Ash Constitution. Each contains six editable SVG/GSAP scenes, local illustration/font assets, narration and aligned caption data. Collusion is excluded.
+The reusable skill does not depend on the example projects. The `hyperframes/` working directory is local-only and excluded by `.gitignore`; its scene files, assets, narration and case notes are not included in this repository.
 
-Each project's `evidence-index.json` resolves its scene evidence IDs to source URLs and record locators. The [Mythos case companion](hyperframes/mythos/README.md) includes the reading notes, reconstruction, event DAG, timed scenario and production status. It preserves the existing selected reconstruction rather than claiming a new full transcript review. [Public Thimble design notes](skills/incident-replay/references/thimble.md) identify the story and video prompts informing the skill.
+The published videos were rendered with HyperFrames **0.8.117** at 1920×1080 and 30 fps. Review scope and limitations are recorded in [the verification summary](production/completion-audit.md). [Public Thimble design notes](skills/incident-replay/references/thimble.md) document the story and video prompts informing the skill.
 
-**Current status (2026-10-05):** six native HyperFrames exports are available below, rendered with the pinned CLI version **0.8.117**, at 1920×1080 and 30 fps. The server/browser permission blocker was resolved using an explicitly approved execution context. Runtime checks and full media decoding passed. Review scope and limitations are recorded in [the completion audit](production/completion-audit.md).
-
-On a machine with Node.js 22+, Python 3.9+, FFmpeg and permission to run Chrome/local servers, run from this repository:
-
-```sh
-sh render.sh
-```
-
-The launcher selects Python 3.9+ and resolves the pinned HyperFrames CLI from local project dependencies or an existing npm cache; it does not download anything implicitly. Install the locked dependencies with `npm ci`. For a single film: `sh render.sh --case mythos`. For static checks only: `sh render.sh --lint-only`.
-
-The render script runs the installed version's runtime gates, performs the actual HyperFrames render, checks duration/resolution/audio and fully decodes the result, then writes `videos/<case>.en-en.hyperframes.mp4` and updates the video manifest. It also extracts 18 encoded frames per film for review. Listening, caption appearance and visual quality still require review; successful encoding alone does not prove those.
-
-Edit the native scene HTML directly, or edit `production/build_hyperframes.py` and rebuild with `python3 production/build_hyperframes.py`. Rebuilding overwrites generated scene HTML. `python3 production/verify_sources.py` checks source contracts, local assets and exact caption-time projection without launching a browser. The [video manifest](videos/manifest.json) identifies the published exports. Detailed checks, render status and extracted frames are generated locally and ignored by Git.
+Optional local production helpers remain under `production/`. They require locally available case projects under `hyperframes/`, Node.js 22+, Python 3.9+, FFmpeg and permission to run Chrome/local servers. After installing the locked dependencies with `npm ci`, run `sh render.sh` for all local cases or `sh render.sh --case mythos` for one. The helpers update the canonical MP4s and manifest; checks and temporary output remain ignored.
 
 ## Latest videos — native HyperFrames
 
@@ -87,10 +75,10 @@ Only the six latest native HyperFrames MP4s are included. Older exports, tempora
 
 ## Scope
 
-This repository contains the reusable instruction-only skill, six latest videos, evidence-linked reconstruction material, and editable HyperFrames production sources. The skill directory contains no production code. Case source transcripts, credentials and private working history are not included. Source references remain available in the videos and skill resources. Source records and third-party materials retain their respective rights.
+This repository contains the reusable instruction-only skill, usage documentation, six latest videos and optional production helpers. Editable case projects and reconstruction working files stay local under the ignored `hyperframes/` directory. The skill directory contains no production code. Case source transcripts, credentials and private working history are not included. Source references remain available in the videos and skill resources. Source records and third-party materials retain their respective rights.
 
 ## Browser or local-server permission errors
 
 `listen EPERM 127.0.0.1`, Chromium `Operation not permitted`, or `MachPortRendezvous` indicate that the execution environment denied local server/browser startup. Installing another browser or changing scene code does not grant those permissions. Run `sh render.sh` from a normal terminal, or use an agent session explicitly permitted to launch the renderer and its local server. The launcher does not change sandbox policy or disable browser protections.
 
-`node production/hyperframes.mjs doctor --json` checks dependencies. In a managed coding-agent session, request the host’s normal execution approval when server/browser startup is denied. An `on-request` policy enables that approval; it does not itself execute the render. A detected Chrome executable does not prove that the environment permits it to launch. Version notices and missing optional TTS/music packages are separate from browser permissions; these projects already include narration.
+`node production/hyperframes.mjs doctor --json` checks dependencies. In a managed coding-agent session, request the host’s normal execution approval when server/browser startup is denied. An `on-request` policy enables that approval; it does not itself execute the render. A detected Chrome executable does not prove that the environment permits it to launch. Version notices and missing optional TTS/music packages are separate from browser permissions; locally retained case projects already include narration.

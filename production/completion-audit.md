@@ -9,7 +9,7 @@ The [video manifest](../videos/manifest.json) identifies the six checked MP4s by
 | Visual review | 18 encoded scene samples per case. Overlapping Mythos notes and Saving Gemini's long heading were fixed and rerendered. Remaining layout warnings concern clipped illustration atlas bounds checked in the visible output. |
 | Captions | All 145 cue midpoints checked using local OCR; five letter-recognition exceptions visually inspected. Existing acoustic alignment retained; no independent speech retranscription in this pass. |
 | Audio timing | Three PCM comparisons per video: zero measured lag at 2 kHz, correlation above 0.9997. |
-| Sources | 87 scene reference IDs resolve across six evidence indexes. 27 Mythos source substrings and three source hashes checked; [source verification](../hyperframes/mythos/verification/evidence.json) retained. The approved selected reconstruction is reused, not a new full transcript review. |
+| Sources | 87 scene reference IDs resolve across six evidence indexes. 27 Mythos source substrings and three source hashes checked; detailed source verification is retained locally in the ignored case project. The approved selected reconstruction is reused, not a new full transcript review. |
 | Skill | Agent-neutral, instruction-only package; format validated. Actual Claude Code execution not tested. Public Thimble prompts cited; no copied implementation dependency. |
 | Publication | English narration and captions, no concluding lesson, six latest videos only; Collusion absent. |
 

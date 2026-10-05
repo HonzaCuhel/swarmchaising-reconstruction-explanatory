@@ -9,10 +9,7 @@ __pycache__/
 # Regenerable render output and caches
 **/.hyperframes/
 **/.hf-tmp/
-hyperframes/*/snapshots/
-hyperframes/*/verification/*
-!hyperframes/mythos/verification/evidence.json
-hyperframes/*/BRIEF.md
+/hyperframes/
 production/render-status.json
 production/source-verification.json
 production/environment-check.json
