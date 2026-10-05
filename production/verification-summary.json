@@ -1,6 +1,6 @@
 {
   "skill_format": "validated",
-  "relative_references": "passed",
+  "relative_references": "27 local Markdown links passed",
   "publication_scope": "passed",
   "source_js_syntax": "36 scene scripts passed",
   "scene_and_caption_contract": "passed; 145 caption cues",
@@ -14,6 +14,10 @@
   "video_validator_fixture": "valid media accepted; wrong duration rejected",
   "new_mp4s_rendered": 0,
   "new_visual_review": "not performed",
-  "browser_runtime": "blocked by existing environment permissions",
-  "claude_code_execution": "not run; format and installation documented against official docs"
+  "browser_runtime": "Actual Mythos validate attempt: listen EPERM 127.0.0.1; renderer never started",
+  "claude_code_execution": "not run; format and installation documented against official docs",
+  "evidence_indexes": "Six cases; all scene IDs resolve to source URLs and record locators",
+  "mythos_source_spans": "27 exact source substrings matched; 3 local source hashes matched",
+  "evidence_negative_check": "Missing ID correctly rejected",
+  "skill_package": "Canonical, mirrored, publication copy and ZIP content matched"
 }

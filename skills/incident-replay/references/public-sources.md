@@ -2,7 +2,7 @@
 
 These resources offer general presentation ideas. The workflow does not require them.
 
-- [Thimble](https://github.com/safety-research/thimble): a public project for exploring agent trajectories.
+- [Thimble](https://github.com/safety-research/thimble): a public project for exploring agent trajectories. [Design notes](thimble.md) identify the public story and video prompts informing this workflow.
 - [Pixar in a Box](https://www.khanacademy.org/computing/pixar/storytelling): lessons on characters, obstacles, visual storytelling and feedback.
 - [ABT](https://abtnarrative.com/): the And, But, Therefore narrative structure.
 - [Dramatron](https://google-deepmind.github.io/dramatron/details.html): an example of developing and revising stories with language models.

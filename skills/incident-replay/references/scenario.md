@@ -13,4 +13,6 @@ End with the incident's outcome and evidence limits. Do not append a lesson, mor
 
 For each scene, write narration, visible action and source references. Characters or objects should act, move or change state in ways that explain the event. Include whole-scene movement or transitions where they clarify a changed setting or consequence. An illustration must not imply an undocumented event occurred.
 
+Carry evidence IDs from the reconstruction into the scene notes and keep their source lookup with the film. Check that each reference resolves after packaging. For public examples of source-linked story beats and seekable film design, see [the Thimble notes](thimble.md).
+
 Review whether the assignment, action and consequence are understandable and supported. Record needed revisions without inventing dialogue or motives. Let the incident determine scene count and pacing. Final timing follows the measured narration.

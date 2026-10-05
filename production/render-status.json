@@ -1,10 +1,8 @@
 {
   "mythos": {
-    "status": "native_source_ready_render_pending",
-    "reason": "Current agent environment denies browser launch and local server binding; earlier denial respected",
-    "static_lint": "passed",
-    "visual_review": "pending",
-    "output": "videos/mythos.en-en.hyperframes.mp4"
+    "status": "failed",
+    "reason": "Environment denied local server or browser startup. Run from a normal terminal or a session permitted to run HyperFrames. No retry or renderer substitution attempted. Details: hyperframes/mythos/verification/validate.json",
+    "hyperframes_version": "0.7.10"
   },
   "geological-clock": {
     "status": "native_source_ready_render_pending",

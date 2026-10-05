@@ -54,7 +54,9 @@ See [the skill](skills/incident-replay/SKILL.md) and [HyperFrames instructions](
 
 Six projects are authored under `hyperframes/`: Mythos, Geological Clock, Saving Gemini, Opus loan, Doug–Mira and Ash Constitution. Each contains six editable SVG/GSAP scenes, local illustration/font assets, narration and aligned caption data. Collusion is excluded.
 
-**Current status:** all 36 scenes pass static source checks and HyperFrames lint. Browser/runtime checks, visual quality review and new MP4 renders remain pending because the authoring session cannot launch a browser or bind a local server. The previous MP4s below are not HyperFrames exports.
+Each project's `evidence-index.json` resolves its scene evidence IDs to source URLs and record locators. The [Mythos case companion](hyperframes/mythos/README.md) includes the reading notes, reconstruction, event DAG, timed scenario and production status. It preserves the existing selected reconstruction rather than claiming a new full transcript review. [Public Thimble design notes](skills/incident-replay/references/thimble.md) identify the story and video prompts informing the skill.
+
+**Current status:** all 36 scenes pass static source checks and HyperFrames lint. A real Mythos workflow attempt on 2026-10-05 stopped at runtime validation with `listen EPERM: operation not permitted 127.0.0.1`; browser execution was not established by that attempt. Visual review and new MP4 renders remain pending. The previous MP4s below are not HyperFrames exports.
 
 On a machine with Node.js 22+, Python 3.9+, FFmpeg and permission to run Chrome/local servers, run from this repository:
 

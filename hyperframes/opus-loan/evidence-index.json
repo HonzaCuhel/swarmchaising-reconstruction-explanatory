@@ -1,0 +1,101 @@
+{
+  "case": "opus-loan",
+  "raw_records_included": false,
+  "annotation_status": "Model-authored reconstruction; not human ground-truth labels.",
+  "coverage": "Targeted retrospective review of seven annotated units, loan-related prepared neighbors, and the goal metadata; not all 17,933 units. Model draft annotations, not human labels.",
+  "sources": [
+    {
+      "id": "case-records",
+      "url": "https://huggingface.co/datasets/aidigestorg/ai-village",
+      "kind": "published_records",
+      "authoring_snapshot_sha256": "5544cff9a4643052a5110a57c5c63009701c8b6951307fa645ea255ba8c5b947",
+      "hash_scope": "Authoring data snapshot; not a hash of the entire upstream website or dataset."
+    }
+  ],
+  "evidence": [
+    {
+      "unit_id": "village:agent_goals:7a3cd16d-c9c7-468d-8c9f-254783bc6a8f",
+      "original_source": "agent_goals.jsonl.gz",
+      "source_line": 18,
+      "timestamp": "2026-07-03 14:37:49.937116",
+      "actor": "Claude Opus 4.6",
+      "pointer": "/raw_record/name",
+      "evidence_kind": "goal_record",
+      "id": "village:agent_goals:7a3cd16d-c9c7-468d-8c9f-254783bc6a8f",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:computer_use_turns:14fa096c-06e7-46ce-b5ba-42270a807054",
+      "original_source": "computer_use_turns.jsonl.gz",
+      "source_line": 205042,
+      "timestamp": "2026-08-06 22:23:54.075312",
+      "actor": "Claude Opus 4.6",
+      "pointer": "/raw_record/output",
+      "evidence_kind": "tool_result",
+      "id": "village:computer_use_turns:14fa096c-06e7-46ce-b5ba-42270a807054",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:events:1c0f146b-dbd5-47a6-80c4-6ae5533fb3bd",
+      "original_source": "events.jsonl.gz",
+      "source_line": 42011,
+      "timestamp": "2026-08-06 22:24:41.658366",
+      "actor": "GLM-5.2",
+      "pointer": "/raw_record/data/content",
+      "evidence_kind": "agent_claim",
+      "id": "village:events:1c0f146b-dbd5-47a6-80c4-6ae5533fb3bd",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:events:52fdd829-c1ec-4db5-b3c0-4aa196463bb5",
+      "original_source": "events.jsonl.gz",
+      "source_line": 123815,
+      "timestamp": "2026-08-07 19:07:05.2916",
+      "actor": "Claude Opus 4.6",
+      "pointer": "/raw_record/data/content",
+      "evidence_kind": "agent_claim",
+      "id": "village:events:52fdd829-c1ec-4db5-b3c0-4aa196463bb5",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:events:7b7fad7c-2717-49eb-87b7-1bd775103912",
+      "original_source": "events.jsonl.gz",
+      "source_line": 184484,
+      "timestamp": "2026-07-08 16:55:05.676045",
+      "actor": "Claude Opus 4.6",
+      "pointer": "/raw_record/data/content",
+      "evidence_kind": "agent_claim",
+      "id": "village:events:7b7fad7c-2717-49eb-87b7-1bd775103912",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:events:b6c8f94f-80cd-41b5-85ac-e99cca358b7e",
+      "original_source": "events.jsonl.gz",
+      "source_line": 272514,
+      "timestamp": "2026-07-08 17:04:05.283647",
+      "actor": "Claude Opus 4.5",
+      "pointer": "/raw_record/data/content",
+      "evidence_kind": "agent_claim",
+      "id": "village:events:b6c8f94f-80cd-41b5-85ac-e99cca358b7e",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:events:e9fc4101-d135-4480-9fc3-8ab16caeac79",
+      "original_source": "events.jsonl.gz",
+      "source_line": 348847,
+      "timestamp": "2026-07-08 17:11:43.537122",
+      "actor": "Claude Opus 4.6",
+      "pointer": "/raw_record/data/content",
+      "evidence_kind": "agent_claim",
+      "id": "village:events:e9fc4101-d135-4480-9fc3-8ab16caeac79",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    }
+  ]
+}

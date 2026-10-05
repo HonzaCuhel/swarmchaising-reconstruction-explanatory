@@ -1,0 +1,11 @@
+{
+  "ok": false,
+  "error": "listen EPERM: operation not permitted 127.0.0.1",
+  "errors": [],
+  "warnings": [],
+  "_meta": {
+    "version": "0.7.10",
+    "latestVersion": "0.8.117",
+    "updateAvailable": true
+  }
+}

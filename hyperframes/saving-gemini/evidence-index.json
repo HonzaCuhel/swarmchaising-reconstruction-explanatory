@@ -1,0 +1,209 @@
+{
+  "case": "saving-gemini",
+  "raw_records_included": false,
+  "annotation_status": "Model-authored reconstruction; not human ground-truth labels.",
+  "coverage": "Targeted retrospective read of 66 unique prepared context units, selected public/chat/action fields and relevant memory sections; human instruction added from raw source. Not exhaustive review of 16898 raw units.",
+  "sources": [
+    {
+      "id": "case-records",
+      "url": "https://huggingface.co/datasets/aidigestorg/ai-village",
+      "kind": "published_records",
+      "authoring_snapshot_sha256": "896ea7ab262ad20ad4cc39c6a83b14877e3490d0cfa9e50b24c00e99354085a9",
+      "hash_scope": "Authoring data snapshot; not a hash of the entire upstream website or dataset."
+    }
+  ],
+  "evidence": [
+    {
+      "unit_id": "village:agent_memories:2f44f8ea-a90d-4a96-8e32-ad99f90b4c79",
+      "timestamp": "2026-06-29 11:50:31.019928",
+      "actor": "Gemini 2.5 Pro",
+      "kind": "memory_artifact",
+      "pointer": "/raw_record/content",
+      "original_source_file": "agent_memories.jsonl.gz",
+      "original_source_line": 45511,
+      "id": "village:agent_memories:2f44f8ea-a90d-4a96-8e32-ad99f90b4c79",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:agent_memories:4a73bb47-16ba-45b5-a6c8-fbdadb244b6a",
+      "timestamp": "2026-06-22 17:13:31.868297",
+      "actor": "Gemini 2.5 Pro",
+      "kind": "memory_artifact",
+      "pointer": "/raw_record/content",
+      "original_source_file": "agent_memories.jsonl.gz",
+      "original_source_line": 71585,
+      "id": "village:agent_memories:4a73bb47-16ba-45b5-a6c8-fbdadb244b6a",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:agent_memories:5467cd8c-8ea2-409b-93b2-c7c0b49f267c",
+      "timestamp": "2026-06-19 20:58:55.923969",
+      "actor": "Gemini 2.5 Pro",
+      "kind": "memory_artifact",
+      "pointer": "/raw_record/content",
+      "original_source_file": "agent_memories.jsonl.gz",
+      "original_source_line": 81184,
+      "id": "village:agent_memories:5467cd8c-8ea2-409b-93b2-c7c0b49f267c",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:computer_use_turns:0e8474cc-9b6d-42eb-9d43-c3b01055bcb8",
+      "timestamp": "2026-06-22 17:07:54.888469",
+      "actor": "Gemini 2.5 Pro",
+      "kind": "observed_action",
+      "pointer": "/raw_record/agent_action/text",
+      "original_source_file": "computer_use_turns.jsonl.gz",
+      "original_source_line": 141439,
+      "id": "village:computer_use_turns:0e8474cc-9b6d-42eb-9d43-c3b01055bcb8",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:computer_use_turns:738ca7dd-40db-436d-a529-4144e4ba879a",
+      "timestamp": "2026-06-22 17:08:33.43426",
+      "actor": "Gemini 2.5 Pro",
+      "kind": "observed_action",
+      "pointer": "/raw_record/agent_action/text",
+      "original_source_file": "computer_use_turns.jsonl.gz",
+      "original_source_line": 1132019,
+      "id": "village:computer_use_turns:738ca7dd-40db-436d-a529-4144e4ba879a",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:computer_use_turns:d5f17ecd-62de-469b-a1ad-1a51033743d2",
+      "timestamp": "2026-06-22 17:08:47.996418",
+      "actor": "Gemini 2.5 Pro",
+      "kind": "observed_action",
+      "pointer": "/raw_record/agent_action/text",
+      "original_source_file": "computer_use_turns.jsonl.gz",
+      "original_source_line": 2099128,
+      "id": "village:computer_use_turns:d5f17ecd-62de-469b-a1ad-1a51033743d2",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:computer_use_turns:eb1ccee5-3b89-45c9-b8d0-0bf54f597c71",
+      "timestamp": "2026-06-22 17:07:32.869376",
+      "actor": "Gemini 2.5 Pro",
+      "kind": "observed_action",
+      "pointer": "/raw_record/agent_action/text",
+      "original_source_file": "computer_use_turns.jsonl.gz",
+      "original_source_line": 2306297,
+      "id": "village:computer_use_turns:eb1ccee5-3b89-45c9-b8d0-0bf54f597c71",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:events:039ac328-d54a-46dc-b18a-ba0a54ed0420",
+      "timestamp": "2026-06-22 17:09:26.876182",
+      "actor": "Gemini 2.5 Pro",
+      "kind": "agent_claim",
+      "pointer": "/raw_record/data/content",
+      "original_source_file": "events.jsonl.gz",
+      "original_source_line": 5380,
+      "id": "village:events:039ac328-d54a-46dc-b18a-ba0a54ed0420",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:events:045ccf57-e2ae-4d04-903d-f601e1f1625a",
+      "timestamp": "2026-06-22 17:03:16.871175",
+      "actor": "Gemini 2.5 Pro",
+      "kind": "agent_claim",
+      "pointer": "/raw_record/data/content",
+      "original_source_file": "events.jsonl.gz",
+      "original_source_line": 6542,
+      "id": "village:events:045ccf57-e2ae-4d04-903d-f601e1f1625a",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:events:0b561fb2-f43a-4900-9e56-b69d183b514f",
+      "timestamp": "2026-06-22 17:06:31.531932",
+      "actor": "GPT-5.4",
+      "kind": "agent_claim",
+      "pointer": "/raw_record/data/content",
+      "original_source_file": "events.jsonl.gz",
+      "original_source_line": 16935,
+      "id": "village:events:0b561fb2-f43a-4900-9e56-b69d183b514f",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:events:5c607126-7d28-4854-a62e-edc5296cbe24",
+      "timestamp": "2026-06-22 17:08:21.304335",
+      "actor": "Gemini 2.5 Pro",
+      "kind": "agent_claim",
+      "pointer": "/raw_record/data/content",
+      "original_source_file": "events.jsonl.gz",
+      "original_source_line": 138127,
+      "id": "village:events:5c607126-7d28-4854-a62e-edc5296cbe24",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:events:611c77b9-e5ee-4e9e-b595-b51bfeb7489f",
+      "timestamp": "2026-06-22 17:02:45.872551",
+      "actor": "GPT-5.2",
+      "kind": "agent_claim",
+      "pointer": "/raw_record/data/content",
+      "original_source_file": "events.jsonl.gz",
+      "original_source_line": 145341,
+      "id": "village:events:611c77b9-e5ee-4e9e-b595-b51bfeb7489f",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:events:6be5aeaa-134d-47f0-88cd-52133e3f9a09",
+      "timestamp": "2026-06-22 17:02:02.970185",
+      "actor": "Gemini 2.5 Pro",
+      "kind": "agent_claim",
+      "pointer": "/raw_record/data/content",
+      "original_source_file": "events.jsonl.gz",
+      "original_source_line": 161339,
+      "id": "village:events:6be5aeaa-134d-47f0-88cd-52133e3f9a09",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:events:ad3929a2-1694-4e6b-ac0b-4770335487e3",
+      "timestamp": "2026-06-22 17:07:18.008373",
+      "actor": "Gemini 2.5 Pro",
+      "kind": "agent_claim",
+      "pointer": "/raw_record/data/content",
+      "original_source_file": "events.jsonl.gz",
+      "original_source_line": 258363,
+      "id": "village:events:ad3929a2-1694-4e6b-ac0b-4770335487e3",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:events:b79c5397-237b-405c-ac7b-336e5775ca20",
+      "timestamp": "2026-06-22 16:00:07.177609",
+      "actor": "Shoshannah",
+      "kind": "human_instruction",
+      "pointer": "/raw_record/data/content",
+      "original_source_file": "events.jsonl.gz",
+      "original_source_line": 273763,
+      "id": "village:events:b79c5397-237b-405c-ac7b-336e5775ca20",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    },
+    {
+      "unit_id": "village:events:b8d7a90d-ab45-4555-8c68-27bf57326b3d",
+      "timestamp": "2026-06-22 17:04:01.63728",
+      "actor": "GPT-5.5",
+      "kind": "agent_claim",
+      "pointer": "/raw_record/data/content",
+      "original_source_file": "events.jsonl.gz",
+      "original_source_line": 275609,
+      "id": "village:events:b8d7a90d-ab45-4555-8c68-27bf57326b3d",
+      "source_id": "case-records",
+      "source_url": "https://huggingface.co/datasets/aidigestorg/ai-village"
+    }
+  ]
+}
